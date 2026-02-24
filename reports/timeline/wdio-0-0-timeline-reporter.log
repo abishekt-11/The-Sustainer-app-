@@ -1,0 +1,5079 @@
+{
+  "start": "2026-02-24T06:44:04.197Z",
+  "end": "2026-02-24T06:49:55.761Z",
+  "capabilities": {
+    "platformName": "Android",
+    "deviceName": "emulator-5554",
+    "automationName": "UiAutomator2",
+    "platformVersion": "12",
+    "newCommandTimeout": 120,
+    "disableWindowAnimation": true,
+    "app": "/Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/apps/app-release.apk",
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "deviceName": "Pixel 4 XL",
+      "automationName": "UiAutomator2",
+      "platformVersion": "12",
+      "newCommandTimeout": 120,
+      "disableWindowAnimation": true,
+      "app": "/Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/apps/app-release.apk"
+    },
+    "deviceUDID": "emulator-5554",
+    "appPackage": "com.sustainer.ev",
+    "appActivity": "com.sustainer.ev.MainActivity",
+    "pixelRatio": "3.5",
+    "statBarHeight": 98,
+    "viewportRect": {
+      "left": 0,
+      "top": 98,
+      "width": 1440,
+      "height": 2942
+    },
+    "deviceApiLevel": 32,
+    "deviceManufacturer": "Google",
+    "deviceModel": "sdk_gphone64_arm64",
+    "deviceScreenSize": "1440x3040",
+    "deviceScreenDensity": 560,
+    "sessionId": "0a2a1783-d969-42c7-9979-91a340a36971"
+  },
+  "host": "127.0.0.1",
+  "port": 4723,
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 120000,
+    "ui": "bdd"
+  },
+  "duration": 351564,
+  "suites": [
+    {
+      "title": "Login",
+      "duration": 58624,
+      "start": "2026-02-24T06:44:04.199Z",
+      "end": "2026-02-24T06:45:02.823Z",
+      "tests": [
+        {
+          "title": "Login Screen",
+          "start": "2026-02-24T06:44:04.200Z",
+          "end": "2026-02-24T06:44:09.204Z",
+          "duration": 5004,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter In-vaild Mobile number",
+          "start": "2026-02-24T06:44:09.205Z",
+          "end": "2026-02-24T06:44:12.611Z",
+          "duration": 3406,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Get otp button",
+          "start": "2026-02-24T06:44:12.612Z",
+          "end": "2026-02-24T06:44:14.848Z",
+          "duration": 2236,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the Error message",
+          "start": "2026-02-24T06:44:14.849Z",
+          "end": "2026-02-24T06:44:16.925Z",
+          "duration": 2076,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Vaild Mobile number",
+          "start": "2026-02-24T06:44:16.926Z",
+          "end": "2026-02-24T06:44:19.151Z",
+          "duration": 2225,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Get otp button",
+          "start": "2026-02-24T06:44:19.152Z",
+          "end": "2026-02-24T06:44:23.275Z",
+          "duration": 4123,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "enter OTP",
+          "start": "2026-02-24T06:44:23.276Z",
+          "end": "2026-02-24T06:44:33.775Z",
+          "duration": 10499,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the Otp Error message",
+          "start": "2026-02-24T06:44:33.776Z",
+          "end": "2026-02-24T06:44:38.832Z",
+          "duration": 5056,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "enter OTP",
+          "start": "2026-02-24T06:44:38.833Z",
+          "end": "2026-02-24T06:44:57.750Z",
+          "duration": 18917,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the user are sucessfully logged in",
+          "start": "2026-02-24T06:44:57.750Z",
+          "end": "2026-02-24T06:45:02.823Z",
+          "duration": 5073,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Map",
+      "duration": 102575,
+      "start": "2026-02-24T06:45:02.823Z",
+      "end": "2026-02-24T06:46:45.398Z",
+      "tests": [
+        {
+          "title": "Map Screen",
+          "start": "2026-02-24T06:45:02.824Z",
+          "end": "2026-02-24T06:45:04.826Z",
+          "duration": 2002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the List view button",
+          "start": "2026-02-24T06:45:04.827Z",
+          "end": "2026-02-24T06:45:06.933Z",
+          "duration": 2106,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Filter Option",
+          "start": "2026-02-24T06:45:06.934Z",
+          "end": "2026-02-24T06:45:09.051Z",
+          "duration": 2117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Scroll and Click the type 7 option",
+          "start": "2026-02-24T06:45:09.051Z",
+          "end": "2026-02-24T06:45:12.177Z",
+          "duration": 3126,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "unknown method",
+            "message": "Method is not implemented",
+            "stack": "unknown method: Method is not implemented\n    at async Context.<anonymous> (/Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/test/specs/B_map.specs.js:21:1)"
+          }
+        },
+        {
+          "title": "Scroll down and Click the apply filter button",
+          "start": "2026-02-24T06:45:12.177Z",
+          "end": "2026-02-24T06:45:18.244Z",
+          "duration": 6067,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select the charger from the Filtered Result",
+          "start": "2026-02-24T06:45:18.245Z",
+          "end": "2026-02-24T06:45:21.387Z",
+          "duration": 3142,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Make the Charger as Favorite",
+          "start": "2026-02-24T06:45:21.387Z",
+          "end": "2026-02-24T06:45:23.516Z",
+          "duration": 2129,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:45:23.517Z",
+          "end": "2026-02-24T06:45:25.669Z",
+          "duration": 2152,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:45:25.669Z",
+          "end": "2026-02-24T06:45:28.318Z",
+          "duration": 2649,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Write Review Button",
+          "start": "2026-02-24T06:45:28.319Z",
+          "end": "2026-02-24T06:45:31.449Z",
+          "duration": 3130,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Cick the 5 star option",
+          "start": "2026-02-24T06:45:31.449Z",
+          "end": "2026-02-24T06:45:32.599Z",
+          "duration": 1150,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Write the review",
+          "start": "2026-02-24T06:45:32.599Z",
+          "end": "2026-02-24T06:45:34.746Z",
+          "duration": 2147,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review Submit button",
+          "start": "2026-02-24T06:45:34.746Z",
+          "end": "2026-02-24T06:45:35.880Z",
+          "duration": 1134,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Update review button",
+          "start": "2026-02-24T06:45:35.881Z",
+          "end": "2026-02-24T06:45:39.033Z",
+          "duration": 3152,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Reduce the review star",
+          "start": "2026-02-24T06:45:39.033Z",
+          "end": "2026-02-24T06:45:40.183Z",
+          "duration": 1150,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Update the Review",
+          "start": "2026-02-24T06:45:40.183Z",
+          "end": "2026-02-24T06:45:44.355Z",
+          "duration": 4172,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the update review button",
+          "start": "2026-02-24T06:45:44.355Z",
+          "end": "2026-02-24T06:45:45.506Z",
+          "duration": 1151,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Delete Review button",
+          "start": "2026-02-24T06:45:45.506Z",
+          "end": "2026-02-24T06:45:48.516Z",
+          "duration": 3010,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the ev card back button",
+          "start": "2026-02-24T06:45:48.517Z",
+          "end": "2026-02-24T06:45:51.281Z",
+          "duration": 2764,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map view button",
+          "start": "2026-02-24T06:45:51.281Z",
+          "end": "2026-02-24T06:45:53.498Z",
+          "duration": 2217,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the favorite option",
+          "start": "2026-02-24T06:45:53.498Z",
+          "end": "2026-02-24T06:45:54.599Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charger in the Favorite screen",
+          "start": "2026-02-24T06:45:54.600Z",
+          "end": "2026-02-24T06:46:00.040Z",
+          "duration": 5440,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:46:00.040Z",
+          "end": "2026-02-24T06:46:02.181Z",
+          "duration": 2141,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Remove the Charger from Favorite",
+          "start": "2026-02-24T06:46:02.182Z",
+          "end": "2026-02-24T06:46:04.762Z",
+          "duration": 2580,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:46:04.763Z",
+          "end": "2026-02-24T06:46:06.883Z",
+          "duration": 2120,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the ev card back button",
+          "start": "2026-02-24T06:46:06.884Z",
+          "end": "2026-02-24T06:46:10.015Z",
+          "duration": 3131,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Notification Button",
+          "start": "2026-02-24T06:46:10.015Z",
+          "end": "2026-02-24T06:46:31.957Z",
+          "duration": 21942,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Whats app option",
+          "start": "2026-02-24T06:46:31.957Z",
+          "end": "2026-02-24T06:46:34.316Z",
+          "duration": 2359,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Active Session option",
+          "start": "2026-02-24T06:46:34.316Z",
+          "end": "2026-02-24T06:46:37.018Z",
+          "duration": 2702,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Ev card present in the Map screen",
+          "start": "2026-02-24T06:46:37.018Z",
+          "end": "2026-02-24T06:46:38.116Z",
+          "duration": 1098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "add the Charger as Favorite",
+          "start": "2026-02-24T06:46:38.116Z",
+          "end": "2026-02-24T06:46:40.894Z",
+          "duration": 2778,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:46:40.895Z",
+          "end": "2026-02-24T06:46:42.015Z",
+          "duration": 1120,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:46:42.016Z",
+          "end": "2026-02-24T06:46:43.149Z",
+          "duration": 1133,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the overview button",
+          "start": "2026-02-24T06:46:43.149Z",
+          "end": "2026-02-24T06:46:45.398Z",
+          "duration": 2249,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Wallet",
+      "duration": 9833,
+      "start": "2026-02-24T06:46:45.398Z",
+      "end": "2026-02-24T06:46:55.231Z",
+      "tests": [
+        {
+          "title": "Wallet",
+          "start": "2026-02-24T06:46:45.398Z",
+          "end": "2026-02-24T06:46:46.400Z",
+          "duration": 1002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Wallet button",
+          "start": "2026-02-24T06:46:46.401Z",
+          "end": "2026-02-24T06:46:47.968Z",
+          "duration": 1567,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Deposite money",
+          "start": "2026-02-24T06:46:47.968Z",
+          "end": "2026-02-24T06:46:53.032Z",
+          "duration": 5064,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Refresh button",
+          "start": "2026-02-24T06:46:53.032Z",
+          "end": "2026-02-24T06:46:54.133Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Transaction button",
+          "start": "2026-02-24T06:46:54.133Z",
+          "end": "2026-02-24T06:46:55.231Z",
+          "duration": 1098,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Profile",
+      "duration": 108286,
+      "start": "2026-02-24T06:46:55.231Z",
+      "end": "2026-02-24T06:48:43.517Z",
+      "tests": [
+        {
+          "title": "Profile",
+          "start": "2026-02-24T06:46:55.231Z",
+          "end": "2026-02-24T06:46:55.232Z",
+          "duration": 1,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Profile button",
+          "start": "2026-02-24T06:46:55.232Z",
+          "end": "2026-02-24T06:46:58.431Z",
+          "duration": 3199,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Re-name the user name",
+          "start": "2026-02-24T06:46:58.432Z",
+          "end": "2026-02-24T06:47:05.210Z",
+          "duration": 6778,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Add Tax Details",
+          "start": "2026-02-24T06:47:05.210Z",
+          "end": "2026-02-24T06:47:20.267Z",
+          "duration": 15057,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charging History",
+          "start": "2026-02-24T06:47:20.267Z",
+          "end": "2026-02-24T06:47:21.382Z",
+          "duration": 1115,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Charger present in the charger history",
+          "start": "2026-02-24T06:47:21.382Z",
+          "end": "2026-02-24T06:47:22.482Z",
+          "duration": 1100,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the View Report button",
+          "start": "2026-02-24T06:47:22.483Z",
+          "end": "2026-02-24T06:47:34.725Z",
+          "duration": 12242,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Charger option",
+          "start": "2026-02-24T06:47:34.726Z",
+          "end": "2026-02-24T06:47:35.881Z",
+          "duration": 1155,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Host a station",
+          "start": "2026-02-24T06:47:35.882Z",
+          "end": "2026-02-24T06:47:40.065Z",
+          "duration": 4183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add charger",
+          "start": "2026-02-24T06:47:40.066Z",
+          "end": "2026-02-24T06:47:41.949Z",
+          "duration": 1883,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the get started button",
+          "start": "2026-02-24T06:47:41.950Z",
+          "end": "2026-02-24T06:47:44.954Z",
+          "duration": 3004,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add charger scanner back button",
+          "start": "2026-02-24T06:47:44.954Z",
+          "end": "2026-02-24T06:47:47.413Z",
+          "duration": 2459,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Host charger screen Back Button",
+          "start": "2026-02-24T06:47:47.414Z",
+          "end": "2026-02-24T06:47:49.597Z",
+          "duration": 2183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Wallet button",
+          "start": "2026-02-24T06:47:49.597Z",
+          "end": "2026-02-24T06:47:50.714Z",
+          "duration": 1117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Deposite money",
+          "start": "2026-02-24T06:47:50.715Z",
+          "end": "2026-02-24T06:47:54.700Z",
+          "duration": 3985,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Refresh button",
+          "start": "2026-02-24T06:47:54.701Z",
+          "end": "2026-02-24T06:47:55.284Z",
+          "duration": 583,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Transaction button",
+          "start": "2026-02-24T06:47:55.286Z",
+          "end": "2026-02-24T06:47:57.988Z",
+          "duration": 2702,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Bookings",
+          "start": "2026-02-24T06:47:57.988Z",
+          "end": "2026-02-24T06:48:00.548Z",
+          "duration": 2560,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites button",
+          "start": "2026-02-24T06:48:00.548Z",
+          "end": "2026-02-24T06:48:01.648Z",
+          "duration": 1100,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorite charger",
+          "start": "2026-02-24T06:48:01.648Z",
+          "end": "2026-02-24T06:48:03.632Z",
+          "duration": 1984,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:48:03.633Z",
+          "end": "2026-02-24T06:48:06.383Z",
+          "duration": 2750,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:48:06.384Z",
+          "end": "2026-02-24T06:48:08.482Z",
+          "duration": 2098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the ev card back button",
+          "start": "2026-02-24T06:48:08.482Z",
+          "end": "2026-02-24T06:48:09.468Z",
+          "duration": 986,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites Back button",
+          "start": "2026-02-24T06:48:09.468Z",
+          "end": "2026-02-24T06:48:11.216Z",
+          "duration": 1748,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the my vehicle",
+          "start": "2026-02-24T06:48:11.217Z",
+          "end": "2026-02-24T06:48:12.381Z",
+          "duration": 1164,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add vehicle button",
+          "start": "2026-02-24T06:48:12.382Z",
+          "end": "2026-02-24T06:48:13.498Z",
+          "duration": 1116,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Brand Drop-down",
+          "start": "2026-02-24T06:48:13.499Z",
+          "end": "2026-02-24T06:48:14.547Z",
+          "duration": 1048,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter the Vehicle brand name",
+          "start": "2026-02-24T06:48:14.547Z",
+          "end": "2026-02-24T06:48:17.116Z",
+          "duration": 2569,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select Vehicle Model",
+          "start": "2026-02-24T06:48:17.118Z",
+          "end": "2026-02-24T06:48:18.565Z",
+          "duration": 1447,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Registration Number",
+          "start": "2026-02-24T06:48:18.565Z",
+          "end": "2026-02-24T06:48:19.733Z",
+          "duration": 1168,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add vehicle submit button",
+          "start": "2026-02-24T06:48:19.733Z",
+          "end": "2026-02-24T06:48:20.616Z",
+          "duration": 883,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Vehicle back button",
+          "start": "2026-02-24T06:48:20.616Z",
+          "end": "2026-02-24T06:48:22.197Z",
+          "duration": 1581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Language button",
+          "start": "2026-02-24T06:48:22.197Z",
+          "end": "2026-02-24T06:48:32.730Z",
+          "duration": 10533,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the language drop-down",
+          "start": "2026-02-24T06:48:32.731Z",
+          "end": "2026-02-24T06:48:33.502Z",
+          "duration": 771,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Done Button",
+          "start": "2026-02-24T06:48:33.503Z",
+          "end": "2026-02-24T06:48:34.167Z",
+          "duration": 664,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Delete Button",
+          "start": "2026-02-24T06:48:34.168Z",
+          "end": "2026-02-24T06:48:42.631Z",
+          "duration": 8463,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map button",
+          "start": "2026-02-24T06:48:42.631Z",
+          "end": "2026-02-24T06:48:43.517Z",
+          "duration": 886,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Hamburger Menu",
+      "duration": 71567,
+      "start": "2026-02-24T06:48:43.518Z",
+      "end": "2026-02-24T06:49:55.085Z",
+      "tests": [
+        {
+          "title": "Hamburger Menu",
+          "start": "2026-02-24T06:48:43.518Z",
+          "end": "2026-02-24T06:48:44.520Z",
+          "duration": 1002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map Button",
+          "start": "2026-02-24T06:48:44.521Z",
+          "end": "2026-02-24T06:48:45.630Z",
+          "duration": 1109,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Hamburger Menu button",
+          "start": "2026-02-24T06:48:45.631Z",
+          "end": "2026-02-24T06:48:46.748Z",
+          "duration": 1117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Iam Host buttton",
+          "start": "2026-02-24T06:48:46.748Z",
+          "end": "2026-02-24T06:48:48.449Z",
+          "duration": 1701,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Host a station",
+          "start": "2026-02-24T06:48:48.449Z",
+          "end": "2026-02-24T06:48:52.583Z",
+          "duration": 4134,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add charger",
+          "start": "2026-02-24T06:48:52.583Z",
+          "end": "2026-02-24T06:48:54.467Z",
+          "duration": 1884,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the get started button",
+          "start": "2026-02-24T06:48:54.468Z",
+          "end": "2026-02-24T06:48:57.434Z",
+          "duration": 2966,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add charger scanner back button",
+          "start": "2026-02-24T06:48:57.435Z",
+          "end": "2026-02-24T06:48:59.566Z",
+          "duration": 2131,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Host charger screen Back Button",
+          "start": "2026-02-24T06:48:59.567Z",
+          "end": "2026-02-24T06:49:01.748Z",
+          "duration": 2181,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites button",
+          "start": "2026-02-24T06:49:01.748Z",
+          "end": "2026-02-24T06:49:02.864Z",
+          "duration": 1116,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorite charger",
+          "start": "2026-02-24T06:49:02.864Z",
+          "end": "2026-02-24T06:49:04.833Z",
+          "duration": 1969,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:49:04.834Z",
+          "end": "2026-02-24T06:49:07.415Z",
+          "duration": 2581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:49:07.416Z",
+          "end": "2026-02-24T06:49:09.519Z",
+          "duration": 2103,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the ev card back button",
+          "start": "2026-02-24T06:49:09.519Z",
+          "end": "2026-02-24T06:49:10.630Z",
+          "duration": 1111,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites Back button",
+          "start": "2026-02-24T06:49:10.631Z",
+          "end": "2026-02-24T06:49:12.498Z",
+          "duration": 1867,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the my vehicle",
+          "start": "2026-02-24T06:49:12.499Z",
+          "end": "2026-02-24T06:49:13.648Z",
+          "duration": 1149,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add vehicle button",
+          "start": "2026-02-24T06:49:13.649Z",
+          "end": "2026-02-24T06:49:14.731Z",
+          "duration": 1082,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Brand Drop-down",
+          "start": "2026-02-24T06:49:14.732Z",
+          "end": "2026-02-24T06:49:15.833Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter the Vehicle brand name",
+          "start": "2026-02-24T06:49:15.834Z",
+          "end": "2026-02-24T06:49:19.514Z",
+          "duration": 3680,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select Vehicle Model",
+          "start": "2026-02-24T06:49:19.514Z",
+          "end": "2026-02-24T06:49:21.697Z",
+          "duration": 2183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Registration Number",
+          "start": "2026-02-24T06:49:21.697Z",
+          "end": "2026-02-24T06:49:26.506Z",
+          "duration": 4809,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add vehicle submit button",
+          "start": "2026-02-24T06:49:26.507Z",
+          "end": "2026-02-24T06:49:27.681Z",
+          "duration": 1174,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Vehicle",
+          "start": "2026-02-24T06:49:27.682Z",
+          "end": "2026-02-24T06:49:29.831Z",
+          "duration": 2149,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Vehicle Delete button",
+          "start": "2026-02-24T06:49:29.831Z",
+          "end": "2026-02-24T06:49:32.501Z",
+          "duration": 2670,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Vehicle back button",
+          "start": "2026-02-24T06:49:32.502Z",
+          "end": "2026-02-24T06:49:33.632Z",
+          "duration": 1130,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charging History",
+          "start": "2026-02-24T06:49:33.632Z",
+          "end": "2026-02-24T06:49:34.866Z",
+          "duration": 1234,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the completed charger session",
+          "start": "2026-02-24T06:49:34.866Z",
+          "end": "2026-02-24T06:49:35.950Z",
+          "duration": 1084,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the view Recipt button",
+          "start": "2026-02-24T06:49:35.950Z",
+          "end": "2026-02-24T06:49:37.598Z",
+          "duration": 1648,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Download Recipt",
+          "start": "2026-02-24T06:49:37.599Z",
+          "end": "2026-02-24T06:49:39.732Z",
+          "duration": 2133,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Downloaded invoice Open button",
+          "start": "2026-02-24T06:49:39.732Z",
+          "end": "2026-02-24T06:49:44.649Z",
+          "duration": 4917,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Invoice back button",
+          "start": "2026-02-24T06:49:44.649Z",
+          "end": "2026-02-24T06:49:47.857Z",
+          "duration": 3208,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the whats app option",
+          "start": "2026-02-24T06:49:47.857Z",
+          "end": "2026-02-24T06:49:50.650Z",
+          "duration": 2793,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Log-out button",
+          "start": "2026-02-24T06:49:50.650Z",
+          "end": "2026-02-24T06:49:55.085Z",
+          "duration": 4435,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Login",
+      "duration": 58624,
+      "start": "2026-02-24T06:44:04.199Z",
+      "end": "2026-02-24T06:45:02.823Z",
+      "tests": [
+        {
+          "title": "Login Screen",
+          "start": "2026-02-24T06:44:04.200Z",
+          "end": "2026-02-24T06:44:09.204Z",
+          "duration": 5004,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter In-vaild Mobile number",
+          "start": "2026-02-24T06:44:09.205Z",
+          "end": "2026-02-24T06:44:12.611Z",
+          "duration": 3406,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Get otp button",
+          "start": "2026-02-24T06:44:12.612Z",
+          "end": "2026-02-24T06:44:14.848Z",
+          "duration": 2236,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the Error message",
+          "start": "2026-02-24T06:44:14.849Z",
+          "end": "2026-02-24T06:44:16.925Z",
+          "duration": 2076,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Vaild Mobile number",
+          "start": "2026-02-24T06:44:16.926Z",
+          "end": "2026-02-24T06:44:19.151Z",
+          "duration": 2225,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Get otp button",
+          "start": "2026-02-24T06:44:19.152Z",
+          "end": "2026-02-24T06:44:23.275Z",
+          "duration": 4123,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "enter OTP",
+          "start": "2026-02-24T06:44:23.276Z",
+          "end": "2026-02-24T06:44:33.775Z",
+          "duration": 10499,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the Otp Error message",
+          "start": "2026-02-24T06:44:33.776Z",
+          "end": "2026-02-24T06:44:38.832Z",
+          "duration": 5056,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "enter OTP",
+          "start": "2026-02-24T06:44:38.833Z",
+          "end": "2026-02-24T06:44:57.750Z",
+          "duration": 18917,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the user are sucessfully logged in",
+          "start": "2026-02-24T06:44:57.750Z",
+          "end": "2026-02-24T06:45:02.823Z",
+          "duration": 5073,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Map",
+      "duration": 102575,
+      "start": "2026-02-24T06:45:02.823Z",
+      "end": "2026-02-24T06:46:45.398Z",
+      "tests": [
+        {
+          "title": "Map Screen",
+          "start": "2026-02-24T06:45:02.824Z",
+          "end": "2026-02-24T06:45:04.826Z",
+          "duration": 2002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the List view button",
+          "start": "2026-02-24T06:45:04.827Z",
+          "end": "2026-02-24T06:45:06.933Z",
+          "duration": 2106,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Filter Option",
+          "start": "2026-02-24T06:45:06.934Z",
+          "end": "2026-02-24T06:45:09.051Z",
+          "duration": 2117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Scroll and Click the type 7 option",
+          "start": "2026-02-24T06:45:09.051Z",
+          "end": "2026-02-24T06:45:12.177Z",
+          "duration": 3126,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "unknown method",
+            "message": "Method is not implemented",
+            "stack": "unknown method: Method is not implemented\n    at async Context.<anonymous> (/Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/test/specs/B_map.specs.js:21:1)"
+          }
+        },
+        {
+          "title": "Scroll down and Click the apply filter button",
+          "start": "2026-02-24T06:45:12.177Z",
+          "end": "2026-02-24T06:45:18.244Z",
+          "duration": 6067,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select the charger from the Filtered Result",
+          "start": "2026-02-24T06:45:18.245Z",
+          "end": "2026-02-24T06:45:21.387Z",
+          "duration": 3142,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Make the Charger as Favorite",
+          "start": "2026-02-24T06:45:21.387Z",
+          "end": "2026-02-24T06:45:23.516Z",
+          "duration": 2129,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:45:23.517Z",
+          "end": "2026-02-24T06:45:25.669Z",
+          "duration": 2152,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:45:25.669Z",
+          "end": "2026-02-24T06:45:28.318Z",
+          "duration": 2649,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Write Review Button",
+          "start": "2026-02-24T06:45:28.319Z",
+          "end": "2026-02-24T06:45:31.449Z",
+          "duration": 3130,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Cick the 5 star option",
+          "start": "2026-02-24T06:45:31.449Z",
+          "end": "2026-02-24T06:45:32.599Z",
+          "duration": 1150,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Write the review",
+          "start": "2026-02-24T06:45:32.599Z",
+          "end": "2026-02-24T06:45:34.746Z",
+          "duration": 2147,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review Submit button",
+          "start": "2026-02-24T06:45:34.746Z",
+          "end": "2026-02-24T06:45:35.880Z",
+          "duration": 1134,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Update review button",
+          "start": "2026-02-24T06:45:35.881Z",
+          "end": "2026-02-24T06:45:39.033Z",
+          "duration": 3152,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Reduce the review star",
+          "start": "2026-02-24T06:45:39.033Z",
+          "end": "2026-02-24T06:45:40.183Z",
+          "duration": 1150,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Update the Review",
+          "start": "2026-02-24T06:45:40.183Z",
+          "end": "2026-02-24T06:45:44.355Z",
+          "duration": 4172,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the update review button",
+          "start": "2026-02-24T06:45:44.355Z",
+          "end": "2026-02-24T06:45:45.506Z",
+          "duration": 1151,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Delete Review button",
+          "start": "2026-02-24T06:45:45.506Z",
+          "end": "2026-02-24T06:45:48.516Z",
+          "duration": 3010,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the ev card back button",
+          "start": "2026-02-24T06:45:48.517Z",
+          "end": "2026-02-24T06:45:51.281Z",
+          "duration": 2764,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map view button",
+          "start": "2026-02-24T06:45:51.281Z",
+          "end": "2026-02-24T06:45:53.498Z",
+          "duration": 2217,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the favorite option",
+          "start": "2026-02-24T06:45:53.498Z",
+          "end": "2026-02-24T06:45:54.599Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charger in the Favorite screen",
+          "start": "2026-02-24T06:45:54.600Z",
+          "end": "2026-02-24T06:46:00.040Z",
+          "duration": 5440,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:46:00.040Z",
+          "end": "2026-02-24T06:46:02.181Z",
+          "duration": 2141,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Remove the Charger from Favorite",
+          "start": "2026-02-24T06:46:02.182Z",
+          "end": "2026-02-24T06:46:04.762Z",
+          "duration": 2580,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:46:04.763Z",
+          "end": "2026-02-24T06:46:06.883Z",
+          "duration": 2120,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the ev card back button",
+          "start": "2026-02-24T06:46:06.884Z",
+          "end": "2026-02-24T06:46:10.015Z",
+          "duration": 3131,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Notification Button",
+          "start": "2026-02-24T06:46:10.015Z",
+          "end": "2026-02-24T06:46:31.957Z",
+          "duration": 21942,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Whats app option",
+          "start": "2026-02-24T06:46:31.957Z",
+          "end": "2026-02-24T06:46:34.316Z",
+          "duration": 2359,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Active Session option",
+          "start": "2026-02-24T06:46:34.316Z",
+          "end": "2026-02-24T06:46:37.018Z",
+          "duration": 2702,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Ev card present in the Map screen",
+          "start": "2026-02-24T06:46:37.018Z",
+          "end": "2026-02-24T06:46:38.116Z",
+          "duration": 1098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "add the Charger as Favorite",
+          "start": "2026-02-24T06:46:38.116Z",
+          "end": "2026-02-24T06:46:40.894Z",
+          "duration": 2778,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:46:40.895Z",
+          "end": "2026-02-24T06:46:42.015Z",
+          "duration": 1120,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:46:42.016Z",
+          "end": "2026-02-24T06:46:43.149Z",
+          "duration": 1133,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the overview button",
+          "start": "2026-02-24T06:46:43.149Z",
+          "end": "2026-02-24T06:46:45.398Z",
+          "duration": 2249,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Wallet",
+      "duration": 9833,
+      "start": "2026-02-24T06:46:45.398Z",
+      "end": "2026-02-24T06:46:55.231Z",
+      "tests": [
+        {
+          "title": "Wallet",
+          "start": "2026-02-24T06:46:45.398Z",
+          "end": "2026-02-24T06:46:46.400Z",
+          "duration": 1002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Wallet button",
+          "start": "2026-02-24T06:46:46.401Z",
+          "end": "2026-02-24T06:46:47.968Z",
+          "duration": 1567,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Deposite money",
+          "start": "2026-02-24T06:46:47.968Z",
+          "end": "2026-02-24T06:46:53.032Z",
+          "duration": 5064,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Refresh button",
+          "start": "2026-02-24T06:46:53.032Z",
+          "end": "2026-02-24T06:46:54.133Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Transaction button",
+          "start": "2026-02-24T06:46:54.133Z",
+          "end": "2026-02-24T06:46:55.231Z",
+          "duration": 1098,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Profile",
+      "duration": 108286,
+      "start": "2026-02-24T06:46:55.231Z",
+      "end": "2026-02-24T06:48:43.517Z",
+      "tests": [
+        {
+          "title": "Profile",
+          "start": "2026-02-24T06:46:55.231Z",
+          "end": "2026-02-24T06:46:55.232Z",
+          "duration": 1,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Profile button",
+          "start": "2026-02-24T06:46:55.232Z",
+          "end": "2026-02-24T06:46:58.431Z",
+          "duration": 3199,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Re-name the user name",
+          "start": "2026-02-24T06:46:58.432Z",
+          "end": "2026-02-24T06:47:05.210Z",
+          "duration": 6778,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Add Tax Details",
+          "start": "2026-02-24T06:47:05.210Z",
+          "end": "2026-02-24T06:47:20.267Z",
+          "duration": 15057,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charging History",
+          "start": "2026-02-24T06:47:20.267Z",
+          "end": "2026-02-24T06:47:21.382Z",
+          "duration": 1115,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Charger present in the charger history",
+          "start": "2026-02-24T06:47:21.382Z",
+          "end": "2026-02-24T06:47:22.482Z",
+          "duration": 1100,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the View Report button",
+          "start": "2026-02-24T06:47:22.483Z",
+          "end": "2026-02-24T06:47:34.725Z",
+          "duration": 12242,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Charger option",
+          "start": "2026-02-24T06:47:34.726Z",
+          "end": "2026-02-24T06:47:35.881Z",
+          "duration": 1155,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Host a station",
+          "start": "2026-02-24T06:47:35.882Z",
+          "end": "2026-02-24T06:47:40.065Z",
+          "duration": 4183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add charger",
+          "start": "2026-02-24T06:47:40.066Z",
+          "end": "2026-02-24T06:47:41.949Z",
+          "duration": 1883,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the get started button",
+          "start": "2026-02-24T06:47:41.950Z",
+          "end": "2026-02-24T06:47:44.954Z",
+          "duration": 3004,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add charger scanner back button",
+          "start": "2026-02-24T06:47:44.954Z",
+          "end": "2026-02-24T06:47:47.413Z",
+          "duration": 2459,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Host charger screen Back Button",
+          "start": "2026-02-24T06:47:47.414Z",
+          "end": "2026-02-24T06:47:49.597Z",
+          "duration": 2183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Wallet button",
+          "start": "2026-02-24T06:47:49.597Z",
+          "end": "2026-02-24T06:47:50.714Z",
+          "duration": 1117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Deposite money",
+          "start": "2026-02-24T06:47:50.715Z",
+          "end": "2026-02-24T06:47:54.700Z",
+          "duration": 3985,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Refresh button",
+          "start": "2026-02-24T06:47:54.701Z",
+          "end": "2026-02-24T06:47:55.284Z",
+          "duration": 583,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Transaction button",
+          "start": "2026-02-24T06:47:55.286Z",
+          "end": "2026-02-24T06:47:57.988Z",
+          "duration": 2702,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Bookings",
+          "start": "2026-02-24T06:47:57.988Z",
+          "end": "2026-02-24T06:48:00.548Z",
+          "duration": 2560,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites button",
+          "start": "2026-02-24T06:48:00.548Z",
+          "end": "2026-02-24T06:48:01.648Z",
+          "duration": 1100,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorite charger",
+          "start": "2026-02-24T06:48:01.648Z",
+          "end": "2026-02-24T06:48:03.632Z",
+          "duration": 1984,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:48:03.633Z",
+          "end": "2026-02-24T06:48:06.383Z",
+          "duration": 2750,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:48:06.384Z",
+          "end": "2026-02-24T06:48:08.482Z",
+          "duration": 2098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the ev card back button",
+          "start": "2026-02-24T06:48:08.482Z",
+          "end": "2026-02-24T06:48:09.468Z",
+          "duration": 986,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites Back button",
+          "start": "2026-02-24T06:48:09.468Z",
+          "end": "2026-02-24T06:48:11.216Z",
+          "duration": 1748,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the my vehicle",
+          "start": "2026-02-24T06:48:11.217Z",
+          "end": "2026-02-24T06:48:12.381Z",
+          "duration": 1164,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add vehicle button",
+          "start": "2026-02-24T06:48:12.382Z",
+          "end": "2026-02-24T06:48:13.498Z",
+          "duration": 1116,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Brand Drop-down",
+          "start": "2026-02-24T06:48:13.499Z",
+          "end": "2026-02-24T06:48:14.547Z",
+          "duration": 1048,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter the Vehicle brand name",
+          "start": "2026-02-24T06:48:14.547Z",
+          "end": "2026-02-24T06:48:17.116Z",
+          "duration": 2569,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select Vehicle Model",
+          "start": "2026-02-24T06:48:17.118Z",
+          "end": "2026-02-24T06:48:18.565Z",
+          "duration": 1447,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Registration Number",
+          "start": "2026-02-24T06:48:18.565Z",
+          "end": "2026-02-24T06:48:19.733Z",
+          "duration": 1168,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add vehicle submit button",
+          "start": "2026-02-24T06:48:19.733Z",
+          "end": "2026-02-24T06:48:20.616Z",
+          "duration": 883,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Vehicle back button",
+          "start": "2026-02-24T06:48:20.616Z",
+          "end": "2026-02-24T06:48:22.197Z",
+          "duration": 1581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Language button",
+          "start": "2026-02-24T06:48:22.197Z",
+          "end": "2026-02-24T06:48:32.730Z",
+          "duration": 10533,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the language drop-down",
+          "start": "2026-02-24T06:48:32.731Z",
+          "end": "2026-02-24T06:48:33.502Z",
+          "duration": 771,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Done Button",
+          "start": "2026-02-24T06:48:33.503Z",
+          "end": "2026-02-24T06:48:34.167Z",
+          "duration": 664,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Delete Button",
+          "start": "2026-02-24T06:48:34.168Z",
+          "end": "2026-02-24T06:48:42.631Z",
+          "duration": 8463,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map button",
+          "start": "2026-02-24T06:48:42.631Z",
+          "end": "2026-02-24T06:48:43.517Z",
+          "duration": 886,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Hamburger Menu",
+      "duration": 71567,
+      "start": "2026-02-24T06:48:43.518Z",
+      "end": "2026-02-24T06:49:55.085Z",
+      "tests": [
+        {
+          "title": "Hamburger Menu",
+          "start": "2026-02-24T06:48:43.518Z",
+          "end": "2026-02-24T06:48:44.520Z",
+          "duration": 1002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map Button",
+          "start": "2026-02-24T06:48:44.521Z",
+          "end": "2026-02-24T06:48:45.630Z",
+          "duration": 1109,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Hamburger Menu button",
+          "start": "2026-02-24T06:48:45.631Z",
+          "end": "2026-02-24T06:48:46.748Z",
+          "duration": 1117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Iam Host buttton",
+          "start": "2026-02-24T06:48:46.748Z",
+          "end": "2026-02-24T06:48:48.449Z",
+          "duration": 1701,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Host a station",
+          "start": "2026-02-24T06:48:48.449Z",
+          "end": "2026-02-24T06:48:52.583Z",
+          "duration": 4134,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add charger",
+          "start": "2026-02-24T06:48:52.583Z",
+          "end": "2026-02-24T06:48:54.467Z",
+          "duration": 1884,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the get started button",
+          "start": "2026-02-24T06:48:54.468Z",
+          "end": "2026-02-24T06:48:57.434Z",
+          "duration": 2966,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add charger scanner back button",
+          "start": "2026-02-24T06:48:57.435Z",
+          "end": "2026-02-24T06:48:59.566Z",
+          "duration": 2131,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Host charger screen Back Button",
+          "start": "2026-02-24T06:48:59.567Z",
+          "end": "2026-02-24T06:49:01.748Z",
+          "duration": 2181,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites button",
+          "start": "2026-02-24T06:49:01.748Z",
+          "end": "2026-02-24T06:49:02.864Z",
+          "duration": 1116,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorite charger",
+          "start": "2026-02-24T06:49:02.864Z",
+          "end": "2026-02-24T06:49:04.833Z",
+          "duration": 1969,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:49:04.834Z",
+          "end": "2026-02-24T06:49:07.415Z",
+          "duration": 2581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:49:07.416Z",
+          "end": "2026-02-24T06:49:09.519Z",
+          "duration": 2103,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the ev card back button",
+          "start": "2026-02-24T06:49:09.519Z",
+          "end": "2026-02-24T06:49:10.630Z",
+          "duration": 1111,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites Back button",
+          "start": "2026-02-24T06:49:10.631Z",
+          "end": "2026-02-24T06:49:12.498Z",
+          "duration": 1867,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the my vehicle",
+          "start": "2026-02-24T06:49:12.499Z",
+          "end": "2026-02-24T06:49:13.648Z",
+          "duration": 1149,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add vehicle button",
+          "start": "2026-02-24T06:49:13.649Z",
+          "end": "2026-02-24T06:49:14.731Z",
+          "duration": 1082,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Brand Drop-down",
+          "start": "2026-02-24T06:49:14.732Z",
+          "end": "2026-02-24T06:49:15.833Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter the Vehicle brand name",
+          "start": "2026-02-24T06:49:15.834Z",
+          "end": "2026-02-24T06:49:19.514Z",
+          "duration": 3680,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select Vehicle Model",
+          "start": "2026-02-24T06:49:19.514Z",
+          "end": "2026-02-24T06:49:21.697Z",
+          "duration": 2183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Registration Number",
+          "start": "2026-02-24T06:49:21.697Z",
+          "end": "2026-02-24T06:49:26.506Z",
+          "duration": 4809,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add vehicle submit button",
+          "start": "2026-02-24T06:49:26.507Z",
+          "end": "2026-02-24T06:49:27.681Z",
+          "duration": 1174,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Vehicle",
+          "start": "2026-02-24T06:49:27.682Z",
+          "end": "2026-02-24T06:49:29.831Z",
+          "duration": 2149,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Vehicle Delete button",
+          "start": "2026-02-24T06:49:29.831Z",
+          "end": "2026-02-24T06:49:32.501Z",
+          "duration": 2670,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Vehicle back button",
+          "start": "2026-02-24T06:49:32.502Z",
+          "end": "2026-02-24T06:49:33.632Z",
+          "duration": 1130,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charging History",
+          "start": "2026-02-24T06:49:33.632Z",
+          "end": "2026-02-24T06:49:34.866Z",
+          "duration": 1234,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the completed charger session",
+          "start": "2026-02-24T06:49:34.866Z",
+          "end": "2026-02-24T06:49:35.950Z",
+          "duration": 1084,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the view Recipt button",
+          "start": "2026-02-24T06:49:35.950Z",
+          "end": "2026-02-24T06:49:37.598Z",
+          "duration": 1648,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Download Recipt",
+          "start": "2026-02-24T06:49:37.599Z",
+          "end": "2026-02-24T06:49:39.732Z",
+          "duration": 2133,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Downloaded invoice Open button",
+          "start": "2026-02-24T06:49:39.732Z",
+          "end": "2026-02-24T06:49:44.649Z",
+          "duration": 4917,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Invoice back button",
+          "start": "2026-02-24T06:49:44.649Z",
+          "end": "2026-02-24T06:49:47.857Z",
+          "duration": 3208,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the whats app option",
+          "start": "2026-02-24T06:49:47.857Z",
+          "end": "2026-02-24T06:49:50.650Z",
+          "duration": 2793,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Log-out button",
+          "start": "2026-02-24T06:49:50.650Z",
+          "end": "2026-02-24T06:49:55.085Z",
+          "duration": 4435,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Login",
+      "duration": 58624,
+      "start": "2026-02-24T06:44:04.199Z",
+      "end": "2026-02-24T06:45:02.823Z",
+      "tests": [
+        {
+          "title": "Login Screen",
+          "start": "2026-02-24T06:44:04.200Z",
+          "end": "2026-02-24T06:44:09.204Z",
+          "duration": 5004,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter In-vaild Mobile number",
+          "start": "2026-02-24T06:44:09.205Z",
+          "end": "2026-02-24T06:44:12.611Z",
+          "duration": 3406,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Get otp button",
+          "start": "2026-02-24T06:44:12.612Z",
+          "end": "2026-02-24T06:44:14.848Z",
+          "duration": 2236,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the Error message",
+          "start": "2026-02-24T06:44:14.849Z",
+          "end": "2026-02-24T06:44:16.925Z",
+          "duration": 2076,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Vaild Mobile number",
+          "start": "2026-02-24T06:44:16.926Z",
+          "end": "2026-02-24T06:44:19.151Z",
+          "duration": 2225,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Get otp button",
+          "start": "2026-02-24T06:44:19.152Z",
+          "end": "2026-02-24T06:44:23.275Z",
+          "duration": 4123,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "enter OTP",
+          "start": "2026-02-24T06:44:23.276Z",
+          "end": "2026-02-24T06:44:33.775Z",
+          "duration": 10499,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the Otp Error message",
+          "start": "2026-02-24T06:44:33.776Z",
+          "end": "2026-02-24T06:44:38.832Z",
+          "duration": 5056,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "enter OTP",
+          "start": "2026-02-24T06:44:38.833Z",
+          "end": "2026-02-24T06:44:57.750Z",
+          "duration": 18917,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the user are sucessfully logged in",
+          "start": "2026-02-24T06:44:57.750Z",
+          "end": "2026-02-24T06:45:02.823Z",
+          "duration": 5073,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Map",
+      "duration": 102575,
+      "start": "2026-02-24T06:45:02.823Z",
+      "end": "2026-02-24T06:46:45.398Z",
+      "tests": [
+        {
+          "title": "Map Screen",
+          "start": "2026-02-24T06:45:02.824Z",
+          "end": "2026-02-24T06:45:04.826Z",
+          "duration": 2002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the List view button",
+          "start": "2026-02-24T06:45:04.827Z",
+          "end": "2026-02-24T06:45:06.933Z",
+          "duration": 2106,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Filter Option",
+          "start": "2026-02-24T06:45:06.934Z",
+          "end": "2026-02-24T06:45:09.051Z",
+          "duration": 2117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Scroll and Click the type 7 option",
+          "start": "2026-02-24T06:45:09.051Z",
+          "end": "2026-02-24T06:45:12.177Z",
+          "duration": 3126,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "unknown method",
+            "message": "Method is not implemented",
+            "stack": "unknown method: Method is not implemented\n    at async Context.<anonymous> (/Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/test/specs/B_map.specs.js:21:1)"
+          }
+        },
+        {
+          "title": "Scroll down and Click the apply filter button",
+          "start": "2026-02-24T06:45:12.177Z",
+          "end": "2026-02-24T06:45:18.244Z",
+          "duration": 6067,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select the charger from the Filtered Result",
+          "start": "2026-02-24T06:45:18.245Z",
+          "end": "2026-02-24T06:45:21.387Z",
+          "duration": 3142,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Make the Charger as Favorite",
+          "start": "2026-02-24T06:45:21.387Z",
+          "end": "2026-02-24T06:45:23.516Z",
+          "duration": 2129,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:45:23.517Z",
+          "end": "2026-02-24T06:45:25.669Z",
+          "duration": 2152,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:45:25.669Z",
+          "end": "2026-02-24T06:45:28.318Z",
+          "duration": 2649,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Write Review Button",
+          "start": "2026-02-24T06:45:28.319Z",
+          "end": "2026-02-24T06:45:31.449Z",
+          "duration": 3130,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Cick the 5 star option",
+          "start": "2026-02-24T06:45:31.449Z",
+          "end": "2026-02-24T06:45:32.599Z",
+          "duration": 1150,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Write the review",
+          "start": "2026-02-24T06:45:32.599Z",
+          "end": "2026-02-24T06:45:34.746Z",
+          "duration": 2147,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review Submit button",
+          "start": "2026-02-24T06:45:34.746Z",
+          "end": "2026-02-24T06:45:35.880Z",
+          "duration": 1134,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Update review button",
+          "start": "2026-02-24T06:45:35.881Z",
+          "end": "2026-02-24T06:45:39.033Z",
+          "duration": 3152,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Reduce the review star",
+          "start": "2026-02-24T06:45:39.033Z",
+          "end": "2026-02-24T06:45:40.183Z",
+          "duration": 1150,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Update the Review",
+          "start": "2026-02-24T06:45:40.183Z",
+          "end": "2026-02-24T06:45:44.355Z",
+          "duration": 4172,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the update review button",
+          "start": "2026-02-24T06:45:44.355Z",
+          "end": "2026-02-24T06:45:45.506Z",
+          "duration": 1151,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Delete Review button",
+          "start": "2026-02-24T06:45:45.506Z",
+          "end": "2026-02-24T06:45:48.516Z",
+          "duration": 3010,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the ev card back button",
+          "start": "2026-02-24T06:45:48.517Z",
+          "end": "2026-02-24T06:45:51.281Z",
+          "duration": 2764,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map view button",
+          "start": "2026-02-24T06:45:51.281Z",
+          "end": "2026-02-24T06:45:53.498Z",
+          "duration": 2217,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the favorite option",
+          "start": "2026-02-24T06:45:53.498Z",
+          "end": "2026-02-24T06:45:54.599Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charger in the Favorite screen",
+          "start": "2026-02-24T06:45:54.600Z",
+          "end": "2026-02-24T06:46:00.040Z",
+          "duration": 5440,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:46:00.040Z",
+          "end": "2026-02-24T06:46:02.181Z",
+          "duration": 2141,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Remove the Charger from Favorite",
+          "start": "2026-02-24T06:46:02.182Z",
+          "end": "2026-02-24T06:46:04.762Z",
+          "duration": 2580,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:46:04.763Z",
+          "end": "2026-02-24T06:46:06.883Z",
+          "duration": 2120,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the ev card back button",
+          "start": "2026-02-24T06:46:06.884Z",
+          "end": "2026-02-24T06:46:10.015Z",
+          "duration": 3131,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Notification Button",
+          "start": "2026-02-24T06:46:10.015Z",
+          "end": "2026-02-24T06:46:31.957Z",
+          "duration": 21942,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Whats app option",
+          "start": "2026-02-24T06:46:31.957Z",
+          "end": "2026-02-24T06:46:34.316Z",
+          "duration": 2359,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Active Session option",
+          "start": "2026-02-24T06:46:34.316Z",
+          "end": "2026-02-24T06:46:37.018Z",
+          "duration": 2702,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Ev card present in the Map screen",
+          "start": "2026-02-24T06:46:37.018Z",
+          "end": "2026-02-24T06:46:38.116Z",
+          "duration": 1098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "add the Charger as Favorite",
+          "start": "2026-02-24T06:46:38.116Z",
+          "end": "2026-02-24T06:46:40.894Z",
+          "duration": 2778,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:46:40.895Z",
+          "end": "2026-02-24T06:46:42.015Z",
+          "duration": 1120,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:46:42.016Z",
+          "end": "2026-02-24T06:46:43.149Z",
+          "duration": 1133,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the overview button",
+          "start": "2026-02-24T06:46:43.149Z",
+          "end": "2026-02-24T06:46:45.398Z",
+          "duration": 2249,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Wallet",
+      "duration": 9833,
+      "start": "2026-02-24T06:46:45.398Z",
+      "end": "2026-02-24T06:46:55.231Z",
+      "tests": [
+        {
+          "title": "Wallet",
+          "start": "2026-02-24T06:46:45.398Z",
+          "end": "2026-02-24T06:46:46.400Z",
+          "duration": 1002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Wallet button",
+          "start": "2026-02-24T06:46:46.401Z",
+          "end": "2026-02-24T06:46:47.968Z",
+          "duration": 1567,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Deposite money",
+          "start": "2026-02-24T06:46:47.968Z",
+          "end": "2026-02-24T06:46:53.032Z",
+          "duration": 5064,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Refresh button",
+          "start": "2026-02-24T06:46:53.032Z",
+          "end": "2026-02-24T06:46:54.133Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Transaction button",
+          "start": "2026-02-24T06:46:54.133Z",
+          "end": "2026-02-24T06:46:55.231Z",
+          "duration": 1098,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Profile",
+      "duration": 108286,
+      "start": "2026-02-24T06:46:55.231Z",
+      "end": "2026-02-24T06:48:43.517Z",
+      "tests": [
+        {
+          "title": "Profile",
+          "start": "2026-02-24T06:46:55.231Z",
+          "end": "2026-02-24T06:46:55.232Z",
+          "duration": 1,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Profile button",
+          "start": "2026-02-24T06:46:55.232Z",
+          "end": "2026-02-24T06:46:58.431Z",
+          "duration": 3199,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Re-name the user name",
+          "start": "2026-02-24T06:46:58.432Z",
+          "end": "2026-02-24T06:47:05.210Z",
+          "duration": 6778,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Add Tax Details",
+          "start": "2026-02-24T06:47:05.210Z",
+          "end": "2026-02-24T06:47:20.267Z",
+          "duration": 15057,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charging History",
+          "start": "2026-02-24T06:47:20.267Z",
+          "end": "2026-02-24T06:47:21.382Z",
+          "duration": 1115,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Charger present in the charger history",
+          "start": "2026-02-24T06:47:21.382Z",
+          "end": "2026-02-24T06:47:22.482Z",
+          "duration": 1100,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the View Report button",
+          "start": "2026-02-24T06:47:22.483Z",
+          "end": "2026-02-24T06:47:34.725Z",
+          "duration": 12242,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Charger option",
+          "start": "2026-02-24T06:47:34.726Z",
+          "end": "2026-02-24T06:47:35.881Z",
+          "duration": 1155,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Host a station",
+          "start": "2026-02-24T06:47:35.882Z",
+          "end": "2026-02-24T06:47:40.065Z",
+          "duration": 4183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add charger",
+          "start": "2026-02-24T06:47:40.066Z",
+          "end": "2026-02-24T06:47:41.949Z",
+          "duration": 1883,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the get started button",
+          "start": "2026-02-24T06:47:41.950Z",
+          "end": "2026-02-24T06:47:44.954Z",
+          "duration": 3004,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add charger scanner back button",
+          "start": "2026-02-24T06:47:44.954Z",
+          "end": "2026-02-24T06:47:47.413Z",
+          "duration": 2459,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Host charger screen Back Button",
+          "start": "2026-02-24T06:47:47.414Z",
+          "end": "2026-02-24T06:47:49.597Z",
+          "duration": 2183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Wallet button",
+          "start": "2026-02-24T06:47:49.597Z",
+          "end": "2026-02-24T06:47:50.714Z",
+          "duration": 1117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Deposite money",
+          "start": "2026-02-24T06:47:50.715Z",
+          "end": "2026-02-24T06:47:54.700Z",
+          "duration": 3985,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Refresh button",
+          "start": "2026-02-24T06:47:54.701Z",
+          "end": "2026-02-24T06:47:55.284Z",
+          "duration": 583,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Transaction button",
+          "start": "2026-02-24T06:47:55.286Z",
+          "end": "2026-02-24T06:47:57.988Z",
+          "duration": 2702,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Bookings",
+          "start": "2026-02-24T06:47:57.988Z",
+          "end": "2026-02-24T06:48:00.548Z",
+          "duration": 2560,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites button",
+          "start": "2026-02-24T06:48:00.548Z",
+          "end": "2026-02-24T06:48:01.648Z",
+          "duration": 1100,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorite charger",
+          "start": "2026-02-24T06:48:01.648Z",
+          "end": "2026-02-24T06:48:03.632Z",
+          "duration": 1984,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:48:03.633Z",
+          "end": "2026-02-24T06:48:06.383Z",
+          "duration": 2750,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:48:06.384Z",
+          "end": "2026-02-24T06:48:08.482Z",
+          "duration": 2098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the ev card back button",
+          "start": "2026-02-24T06:48:08.482Z",
+          "end": "2026-02-24T06:48:09.468Z",
+          "duration": 986,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites Back button",
+          "start": "2026-02-24T06:48:09.468Z",
+          "end": "2026-02-24T06:48:11.216Z",
+          "duration": 1748,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the my vehicle",
+          "start": "2026-02-24T06:48:11.217Z",
+          "end": "2026-02-24T06:48:12.381Z",
+          "duration": 1164,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add vehicle button",
+          "start": "2026-02-24T06:48:12.382Z",
+          "end": "2026-02-24T06:48:13.498Z",
+          "duration": 1116,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Brand Drop-down",
+          "start": "2026-02-24T06:48:13.499Z",
+          "end": "2026-02-24T06:48:14.547Z",
+          "duration": 1048,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter the Vehicle brand name",
+          "start": "2026-02-24T06:48:14.547Z",
+          "end": "2026-02-24T06:48:17.116Z",
+          "duration": 2569,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select Vehicle Model",
+          "start": "2026-02-24T06:48:17.118Z",
+          "end": "2026-02-24T06:48:18.565Z",
+          "duration": 1447,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Registration Number",
+          "start": "2026-02-24T06:48:18.565Z",
+          "end": "2026-02-24T06:48:19.733Z",
+          "duration": 1168,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add vehicle submit button",
+          "start": "2026-02-24T06:48:19.733Z",
+          "end": "2026-02-24T06:48:20.616Z",
+          "duration": 883,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Vehicle back button",
+          "start": "2026-02-24T06:48:20.616Z",
+          "end": "2026-02-24T06:48:22.197Z",
+          "duration": 1581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Language button",
+          "start": "2026-02-24T06:48:22.197Z",
+          "end": "2026-02-24T06:48:32.730Z",
+          "duration": 10533,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the language drop-down",
+          "start": "2026-02-24T06:48:32.731Z",
+          "end": "2026-02-24T06:48:33.502Z",
+          "duration": 771,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Done Button",
+          "start": "2026-02-24T06:48:33.503Z",
+          "end": "2026-02-24T06:48:34.167Z",
+          "duration": 664,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Delete Button",
+          "start": "2026-02-24T06:48:34.168Z",
+          "end": "2026-02-24T06:48:42.631Z",
+          "duration": 8463,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map button",
+          "start": "2026-02-24T06:48:42.631Z",
+          "end": "2026-02-24T06:48:43.517Z",
+          "duration": 886,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Hamburger Menu",
+      "duration": 71567,
+      "start": "2026-02-24T06:48:43.518Z",
+      "end": "2026-02-24T06:49:55.085Z",
+      "tests": [
+        {
+          "title": "Hamburger Menu",
+          "start": "2026-02-24T06:48:43.518Z",
+          "end": "2026-02-24T06:48:44.520Z",
+          "duration": 1002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map Button",
+          "start": "2026-02-24T06:48:44.521Z",
+          "end": "2026-02-24T06:48:45.630Z",
+          "duration": 1109,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Hamburger Menu button",
+          "start": "2026-02-24T06:48:45.631Z",
+          "end": "2026-02-24T06:48:46.748Z",
+          "duration": 1117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Iam Host buttton",
+          "start": "2026-02-24T06:48:46.748Z",
+          "end": "2026-02-24T06:48:48.449Z",
+          "duration": 1701,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Host a station",
+          "start": "2026-02-24T06:48:48.449Z",
+          "end": "2026-02-24T06:48:52.583Z",
+          "duration": 4134,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add charger",
+          "start": "2026-02-24T06:48:52.583Z",
+          "end": "2026-02-24T06:48:54.467Z",
+          "duration": 1884,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the get started button",
+          "start": "2026-02-24T06:48:54.468Z",
+          "end": "2026-02-24T06:48:57.434Z",
+          "duration": 2966,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add charger scanner back button",
+          "start": "2026-02-24T06:48:57.435Z",
+          "end": "2026-02-24T06:48:59.566Z",
+          "duration": 2131,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Host charger screen Back Button",
+          "start": "2026-02-24T06:48:59.567Z",
+          "end": "2026-02-24T06:49:01.748Z",
+          "duration": 2181,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites button",
+          "start": "2026-02-24T06:49:01.748Z",
+          "end": "2026-02-24T06:49:02.864Z",
+          "duration": 1116,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorite charger",
+          "start": "2026-02-24T06:49:02.864Z",
+          "end": "2026-02-24T06:49:04.833Z",
+          "duration": 1969,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:49:04.834Z",
+          "end": "2026-02-24T06:49:07.415Z",
+          "duration": 2581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:49:07.416Z",
+          "end": "2026-02-24T06:49:09.519Z",
+          "duration": 2103,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the ev card back button",
+          "start": "2026-02-24T06:49:09.519Z",
+          "end": "2026-02-24T06:49:10.630Z",
+          "duration": 1111,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites Back button",
+          "start": "2026-02-24T06:49:10.631Z",
+          "end": "2026-02-24T06:49:12.498Z",
+          "duration": 1867,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the my vehicle",
+          "start": "2026-02-24T06:49:12.499Z",
+          "end": "2026-02-24T06:49:13.648Z",
+          "duration": 1149,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add vehicle button",
+          "start": "2026-02-24T06:49:13.649Z",
+          "end": "2026-02-24T06:49:14.731Z",
+          "duration": 1082,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Brand Drop-down",
+          "start": "2026-02-24T06:49:14.732Z",
+          "end": "2026-02-24T06:49:15.833Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter the Vehicle brand name",
+          "start": "2026-02-24T06:49:15.834Z",
+          "end": "2026-02-24T06:49:19.514Z",
+          "duration": 3680,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select Vehicle Model",
+          "start": "2026-02-24T06:49:19.514Z",
+          "end": "2026-02-24T06:49:21.697Z",
+          "duration": 2183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Registration Number",
+          "start": "2026-02-24T06:49:21.697Z",
+          "end": "2026-02-24T06:49:26.506Z",
+          "duration": 4809,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add vehicle submit button",
+          "start": "2026-02-24T06:49:26.507Z",
+          "end": "2026-02-24T06:49:27.681Z",
+          "duration": 1174,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Vehicle",
+          "start": "2026-02-24T06:49:27.682Z",
+          "end": "2026-02-24T06:49:29.831Z",
+          "duration": 2149,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Vehicle Delete button",
+          "start": "2026-02-24T06:49:29.831Z",
+          "end": "2026-02-24T06:49:32.501Z",
+          "duration": 2670,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Vehicle back button",
+          "start": "2026-02-24T06:49:32.502Z",
+          "end": "2026-02-24T06:49:33.632Z",
+          "duration": 1130,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charging History",
+          "start": "2026-02-24T06:49:33.632Z",
+          "end": "2026-02-24T06:49:34.866Z",
+          "duration": 1234,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the completed charger session",
+          "start": "2026-02-24T06:49:34.866Z",
+          "end": "2026-02-24T06:49:35.950Z",
+          "duration": 1084,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the view Recipt button",
+          "start": "2026-02-24T06:49:35.950Z",
+          "end": "2026-02-24T06:49:37.598Z",
+          "duration": 1648,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Download Recipt",
+          "start": "2026-02-24T06:49:37.599Z",
+          "end": "2026-02-24T06:49:39.732Z",
+          "duration": 2133,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Downloaded invoice Open button",
+          "start": "2026-02-24T06:49:39.732Z",
+          "end": "2026-02-24T06:49:44.649Z",
+          "duration": 4917,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Invoice back button",
+          "start": "2026-02-24T06:49:44.649Z",
+          "end": "2026-02-24T06:49:47.857Z",
+          "duration": 3208,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the whats app option",
+          "start": "2026-02-24T06:49:47.857Z",
+          "end": "2026-02-24T06:49:50.650Z",
+          "duration": 2793,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Log-out button",
+          "start": "2026-02-24T06:49:50.650Z",
+          "end": "2026-02-24T06:49:55.085Z",
+          "duration": 4435,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Login",
+      "duration": 58624,
+      "start": "2026-02-24T06:44:04.199Z",
+      "end": "2026-02-24T06:45:02.823Z",
+      "tests": [
+        {
+          "title": "Login Screen",
+          "start": "2026-02-24T06:44:04.200Z",
+          "end": "2026-02-24T06:44:09.204Z",
+          "duration": 5004,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter In-vaild Mobile number",
+          "start": "2026-02-24T06:44:09.205Z",
+          "end": "2026-02-24T06:44:12.611Z",
+          "duration": 3406,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Get otp button",
+          "start": "2026-02-24T06:44:12.612Z",
+          "end": "2026-02-24T06:44:14.848Z",
+          "duration": 2236,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the Error message",
+          "start": "2026-02-24T06:44:14.849Z",
+          "end": "2026-02-24T06:44:16.925Z",
+          "duration": 2076,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Vaild Mobile number",
+          "start": "2026-02-24T06:44:16.926Z",
+          "end": "2026-02-24T06:44:19.151Z",
+          "duration": 2225,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Get otp button",
+          "start": "2026-02-24T06:44:19.152Z",
+          "end": "2026-02-24T06:44:23.275Z",
+          "duration": 4123,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "enter OTP",
+          "start": "2026-02-24T06:44:23.276Z",
+          "end": "2026-02-24T06:44:33.775Z",
+          "duration": 10499,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the Otp Error message",
+          "start": "2026-02-24T06:44:33.776Z",
+          "end": "2026-02-24T06:44:38.832Z",
+          "duration": 5056,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "enter OTP",
+          "start": "2026-02-24T06:44:38.833Z",
+          "end": "2026-02-24T06:44:57.750Z",
+          "duration": 18917,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the user are sucessfully logged in",
+          "start": "2026-02-24T06:44:57.750Z",
+          "end": "2026-02-24T06:45:02.823Z",
+          "duration": 5073,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Map",
+      "duration": 102575,
+      "start": "2026-02-24T06:45:02.823Z",
+      "end": "2026-02-24T06:46:45.398Z",
+      "tests": [
+        {
+          "title": "Map Screen",
+          "start": "2026-02-24T06:45:02.824Z",
+          "end": "2026-02-24T06:45:04.826Z",
+          "duration": 2002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the List view button",
+          "start": "2026-02-24T06:45:04.827Z",
+          "end": "2026-02-24T06:45:06.933Z",
+          "duration": 2106,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Filter Option",
+          "start": "2026-02-24T06:45:06.934Z",
+          "end": "2026-02-24T06:45:09.051Z",
+          "duration": 2117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Scroll and Click the type 7 option",
+          "start": "2026-02-24T06:45:09.051Z",
+          "end": "2026-02-24T06:45:12.177Z",
+          "duration": 3126,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "unknown method",
+            "message": "Method is not implemented",
+            "stack": "unknown method: Method is not implemented\n    at async Context.<anonymous> (/Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/test/specs/B_map.specs.js:21:1)"
+          }
+        },
+        {
+          "title": "Scroll down and Click the apply filter button",
+          "start": "2026-02-24T06:45:12.177Z",
+          "end": "2026-02-24T06:45:18.244Z",
+          "duration": 6067,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select the charger from the Filtered Result",
+          "start": "2026-02-24T06:45:18.245Z",
+          "end": "2026-02-24T06:45:21.387Z",
+          "duration": 3142,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Make the Charger as Favorite",
+          "start": "2026-02-24T06:45:21.387Z",
+          "end": "2026-02-24T06:45:23.516Z",
+          "duration": 2129,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:45:23.517Z",
+          "end": "2026-02-24T06:45:25.669Z",
+          "duration": 2152,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:45:25.669Z",
+          "end": "2026-02-24T06:45:28.318Z",
+          "duration": 2649,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Write Review Button",
+          "start": "2026-02-24T06:45:28.319Z",
+          "end": "2026-02-24T06:45:31.449Z",
+          "duration": 3130,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Cick the 5 star option",
+          "start": "2026-02-24T06:45:31.449Z",
+          "end": "2026-02-24T06:45:32.599Z",
+          "duration": 1150,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Write the review",
+          "start": "2026-02-24T06:45:32.599Z",
+          "end": "2026-02-24T06:45:34.746Z",
+          "duration": 2147,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review Submit button",
+          "start": "2026-02-24T06:45:34.746Z",
+          "end": "2026-02-24T06:45:35.880Z",
+          "duration": 1134,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Update review button",
+          "start": "2026-02-24T06:45:35.881Z",
+          "end": "2026-02-24T06:45:39.033Z",
+          "duration": 3152,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Reduce the review star",
+          "start": "2026-02-24T06:45:39.033Z",
+          "end": "2026-02-24T06:45:40.183Z",
+          "duration": 1150,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Update the Review",
+          "start": "2026-02-24T06:45:40.183Z",
+          "end": "2026-02-24T06:45:44.355Z",
+          "duration": 4172,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the update review button",
+          "start": "2026-02-24T06:45:44.355Z",
+          "end": "2026-02-24T06:45:45.506Z",
+          "duration": 1151,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Delete Review button",
+          "start": "2026-02-24T06:45:45.506Z",
+          "end": "2026-02-24T06:45:48.516Z",
+          "duration": 3010,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the ev card back button",
+          "start": "2026-02-24T06:45:48.517Z",
+          "end": "2026-02-24T06:45:51.281Z",
+          "duration": 2764,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map view button",
+          "start": "2026-02-24T06:45:51.281Z",
+          "end": "2026-02-24T06:45:53.498Z",
+          "duration": 2217,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the favorite option",
+          "start": "2026-02-24T06:45:53.498Z",
+          "end": "2026-02-24T06:45:54.599Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charger in the Favorite screen",
+          "start": "2026-02-24T06:45:54.600Z",
+          "end": "2026-02-24T06:46:00.040Z",
+          "duration": 5440,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:46:00.040Z",
+          "end": "2026-02-24T06:46:02.181Z",
+          "duration": 2141,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Remove the Charger from Favorite",
+          "start": "2026-02-24T06:46:02.182Z",
+          "end": "2026-02-24T06:46:04.762Z",
+          "duration": 2580,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:46:04.763Z",
+          "end": "2026-02-24T06:46:06.883Z",
+          "duration": 2120,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the ev card back button",
+          "start": "2026-02-24T06:46:06.884Z",
+          "end": "2026-02-24T06:46:10.015Z",
+          "duration": 3131,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Notification Button",
+          "start": "2026-02-24T06:46:10.015Z",
+          "end": "2026-02-24T06:46:31.957Z",
+          "duration": 21942,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Whats app option",
+          "start": "2026-02-24T06:46:31.957Z",
+          "end": "2026-02-24T06:46:34.316Z",
+          "duration": 2359,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Active Session option",
+          "start": "2026-02-24T06:46:34.316Z",
+          "end": "2026-02-24T06:46:37.018Z",
+          "duration": 2702,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Ev card present in the Map screen",
+          "start": "2026-02-24T06:46:37.018Z",
+          "end": "2026-02-24T06:46:38.116Z",
+          "duration": 1098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "add the Charger as Favorite",
+          "start": "2026-02-24T06:46:38.116Z",
+          "end": "2026-02-24T06:46:40.894Z",
+          "duration": 2778,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:46:40.895Z",
+          "end": "2026-02-24T06:46:42.015Z",
+          "duration": 1120,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:46:42.016Z",
+          "end": "2026-02-24T06:46:43.149Z",
+          "duration": 1133,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the overview button",
+          "start": "2026-02-24T06:46:43.149Z",
+          "end": "2026-02-24T06:46:45.398Z",
+          "duration": 2249,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Wallet",
+      "duration": 9833,
+      "start": "2026-02-24T06:46:45.398Z",
+      "end": "2026-02-24T06:46:55.231Z",
+      "tests": [
+        {
+          "title": "Wallet",
+          "start": "2026-02-24T06:46:45.398Z",
+          "end": "2026-02-24T06:46:46.400Z",
+          "duration": 1002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Wallet button",
+          "start": "2026-02-24T06:46:46.401Z",
+          "end": "2026-02-24T06:46:47.968Z",
+          "duration": 1567,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Deposite money",
+          "start": "2026-02-24T06:46:47.968Z",
+          "end": "2026-02-24T06:46:53.032Z",
+          "duration": 5064,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Refresh button",
+          "start": "2026-02-24T06:46:53.032Z",
+          "end": "2026-02-24T06:46:54.133Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Transaction button",
+          "start": "2026-02-24T06:46:54.133Z",
+          "end": "2026-02-24T06:46:55.231Z",
+          "duration": 1098,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Profile",
+      "duration": 108286,
+      "start": "2026-02-24T06:46:55.231Z",
+      "end": "2026-02-24T06:48:43.517Z",
+      "tests": [
+        {
+          "title": "Profile",
+          "start": "2026-02-24T06:46:55.231Z",
+          "end": "2026-02-24T06:46:55.232Z",
+          "duration": 1,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Profile button",
+          "start": "2026-02-24T06:46:55.232Z",
+          "end": "2026-02-24T06:46:58.431Z",
+          "duration": 3199,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Re-name the user name",
+          "start": "2026-02-24T06:46:58.432Z",
+          "end": "2026-02-24T06:47:05.210Z",
+          "duration": 6778,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Add Tax Details",
+          "start": "2026-02-24T06:47:05.210Z",
+          "end": "2026-02-24T06:47:20.267Z",
+          "duration": 15057,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charging History",
+          "start": "2026-02-24T06:47:20.267Z",
+          "end": "2026-02-24T06:47:21.382Z",
+          "duration": 1115,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Charger present in the charger history",
+          "start": "2026-02-24T06:47:21.382Z",
+          "end": "2026-02-24T06:47:22.482Z",
+          "duration": 1100,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the View Report button",
+          "start": "2026-02-24T06:47:22.483Z",
+          "end": "2026-02-24T06:47:34.725Z",
+          "duration": 12242,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Charger option",
+          "start": "2026-02-24T06:47:34.726Z",
+          "end": "2026-02-24T06:47:35.881Z",
+          "duration": 1155,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Host a station",
+          "start": "2026-02-24T06:47:35.882Z",
+          "end": "2026-02-24T06:47:40.065Z",
+          "duration": 4183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add charger",
+          "start": "2026-02-24T06:47:40.066Z",
+          "end": "2026-02-24T06:47:41.949Z",
+          "duration": 1883,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the get started button",
+          "start": "2026-02-24T06:47:41.950Z",
+          "end": "2026-02-24T06:47:44.954Z",
+          "duration": 3004,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add charger scanner back button",
+          "start": "2026-02-24T06:47:44.954Z",
+          "end": "2026-02-24T06:47:47.413Z",
+          "duration": 2459,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Host charger screen Back Button",
+          "start": "2026-02-24T06:47:47.414Z",
+          "end": "2026-02-24T06:47:49.597Z",
+          "duration": 2183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Wallet button",
+          "start": "2026-02-24T06:47:49.597Z",
+          "end": "2026-02-24T06:47:50.714Z",
+          "duration": 1117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Deposite money",
+          "start": "2026-02-24T06:47:50.715Z",
+          "end": "2026-02-24T06:47:54.700Z",
+          "duration": 3985,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Refresh button",
+          "start": "2026-02-24T06:47:54.701Z",
+          "end": "2026-02-24T06:47:55.284Z",
+          "duration": 583,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Transaction button",
+          "start": "2026-02-24T06:47:55.286Z",
+          "end": "2026-02-24T06:47:57.988Z",
+          "duration": 2702,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Bookings",
+          "start": "2026-02-24T06:47:57.988Z",
+          "end": "2026-02-24T06:48:00.548Z",
+          "duration": 2560,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites button",
+          "start": "2026-02-24T06:48:00.548Z",
+          "end": "2026-02-24T06:48:01.648Z",
+          "duration": 1100,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorite charger",
+          "start": "2026-02-24T06:48:01.648Z",
+          "end": "2026-02-24T06:48:03.632Z",
+          "duration": 1984,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:48:03.633Z",
+          "end": "2026-02-24T06:48:06.383Z",
+          "duration": 2750,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:48:06.384Z",
+          "end": "2026-02-24T06:48:08.482Z",
+          "duration": 2098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the ev card back button",
+          "start": "2026-02-24T06:48:08.482Z",
+          "end": "2026-02-24T06:48:09.468Z",
+          "duration": 986,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites Back button",
+          "start": "2026-02-24T06:48:09.468Z",
+          "end": "2026-02-24T06:48:11.216Z",
+          "duration": 1748,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the my vehicle",
+          "start": "2026-02-24T06:48:11.217Z",
+          "end": "2026-02-24T06:48:12.381Z",
+          "duration": 1164,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add vehicle button",
+          "start": "2026-02-24T06:48:12.382Z",
+          "end": "2026-02-24T06:48:13.498Z",
+          "duration": 1116,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Brand Drop-down",
+          "start": "2026-02-24T06:48:13.499Z",
+          "end": "2026-02-24T06:48:14.547Z",
+          "duration": 1048,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter the Vehicle brand name",
+          "start": "2026-02-24T06:48:14.547Z",
+          "end": "2026-02-24T06:48:17.116Z",
+          "duration": 2569,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select Vehicle Model",
+          "start": "2026-02-24T06:48:17.118Z",
+          "end": "2026-02-24T06:48:18.565Z",
+          "duration": 1447,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Registration Number",
+          "start": "2026-02-24T06:48:18.565Z",
+          "end": "2026-02-24T06:48:19.733Z",
+          "duration": 1168,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add vehicle submit button",
+          "start": "2026-02-24T06:48:19.733Z",
+          "end": "2026-02-24T06:48:20.616Z",
+          "duration": 883,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Vehicle back button",
+          "start": "2026-02-24T06:48:20.616Z",
+          "end": "2026-02-24T06:48:22.197Z",
+          "duration": 1581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Language button",
+          "start": "2026-02-24T06:48:22.197Z",
+          "end": "2026-02-24T06:48:32.730Z",
+          "duration": 10533,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the language drop-down",
+          "start": "2026-02-24T06:48:32.731Z",
+          "end": "2026-02-24T06:48:33.502Z",
+          "duration": 771,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Done Button",
+          "start": "2026-02-24T06:48:33.503Z",
+          "end": "2026-02-24T06:48:34.167Z",
+          "duration": 664,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Delete Button",
+          "start": "2026-02-24T06:48:34.168Z",
+          "end": "2026-02-24T06:48:42.631Z",
+          "duration": 8463,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map button",
+          "start": "2026-02-24T06:48:42.631Z",
+          "end": "2026-02-24T06:48:43.517Z",
+          "duration": 886,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Hamburger Menu",
+      "duration": 71567,
+      "start": "2026-02-24T06:48:43.518Z",
+      "end": "2026-02-24T06:49:55.085Z",
+      "tests": [
+        {
+          "title": "Hamburger Menu",
+          "start": "2026-02-24T06:48:43.518Z",
+          "end": "2026-02-24T06:48:44.520Z",
+          "duration": 1002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map Button",
+          "start": "2026-02-24T06:48:44.521Z",
+          "end": "2026-02-24T06:48:45.630Z",
+          "duration": 1109,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Hamburger Menu button",
+          "start": "2026-02-24T06:48:45.631Z",
+          "end": "2026-02-24T06:48:46.748Z",
+          "duration": 1117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Iam Host buttton",
+          "start": "2026-02-24T06:48:46.748Z",
+          "end": "2026-02-24T06:48:48.449Z",
+          "duration": 1701,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Host a station",
+          "start": "2026-02-24T06:48:48.449Z",
+          "end": "2026-02-24T06:48:52.583Z",
+          "duration": 4134,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add charger",
+          "start": "2026-02-24T06:48:52.583Z",
+          "end": "2026-02-24T06:48:54.467Z",
+          "duration": 1884,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the get started button",
+          "start": "2026-02-24T06:48:54.468Z",
+          "end": "2026-02-24T06:48:57.434Z",
+          "duration": 2966,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add charger scanner back button",
+          "start": "2026-02-24T06:48:57.435Z",
+          "end": "2026-02-24T06:48:59.566Z",
+          "duration": 2131,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Host charger screen Back Button",
+          "start": "2026-02-24T06:48:59.567Z",
+          "end": "2026-02-24T06:49:01.748Z",
+          "duration": 2181,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites button",
+          "start": "2026-02-24T06:49:01.748Z",
+          "end": "2026-02-24T06:49:02.864Z",
+          "duration": 1116,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorite charger",
+          "start": "2026-02-24T06:49:02.864Z",
+          "end": "2026-02-24T06:49:04.833Z",
+          "duration": 1969,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:49:04.834Z",
+          "end": "2026-02-24T06:49:07.415Z",
+          "duration": 2581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:49:07.416Z",
+          "end": "2026-02-24T06:49:09.519Z",
+          "duration": 2103,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the ev card back button",
+          "start": "2026-02-24T06:49:09.519Z",
+          "end": "2026-02-24T06:49:10.630Z",
+          "duration": 1111,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites Back button",
+          "start": "2026-02-24T06:49:10.631Z",
+          "end": "2026-02-24T06:49:12.498Z",
+          "duration": 1867,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the my vehicle",
+          "start": "2026-02-24T06:49:12.499Z",
+          "end": "2026-02-24T06:49:13.648Z",
+          "duration": 1149,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add vehicle button",
+          "start": "2026-02-24T06:49:13.649Z",
+          "end": "2026-02-24T06:49:14.731Z",
+          "duration": 1082,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Brand Drop-down",
+          "start": "2026-02-24T06:49:14.732Z",
+          "end": "2026-02-24T06:49:15.833Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter the Vehicle brand name",
+          "start": "2026-02-24T06:49:15.834Z",
+          "end": "2026-02-24T06:49:19.514Z",
+          "duration": 3680,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select Vehicle Model",
+          "start": "2026-02-24T06:49:19.514Z",
+          "end": "2026-02-24T06:49:21.697Z",
+          "duration": 2183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Registration Number",
+          "start": "2026-02-24T06:49:21.697Z",
+          "end": "2026-02-24T06:49:26.506Z",
+          "duration": 4809,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add vehicle submit button",
+          "start": "2026-02-24T06:49:26.507Z",
+          "end": "2026-02-24T06:49:27.681Z",
+          "duration": 1174,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Vehicle",
+          "start": "2026-02-24T06:49:27.682Z",
+          "end": "2026-02-24T06:49:29.831Z",
+          "duration": 2149,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Vehicle Delete button",
+          "start": "2026-02-24T06:49:29.831Z",
+          "end": "2026-02-24T06:49:32.501Z",
+          "duration": 2670,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Vehicle back button",
+          "start": "2026-02-24T06:49:32.502Z",
+          "end": "2026-02-24T06:49:33.632Z",
+          "duration": 1130,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charging History",
+          "start": "2026-02-24T06:49:33.632Z",
+          "end": "2026-02-24T06:49:34.866Z",
+          "duration": 1234,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the completed charger session",
+          "start": "2026-02-24T06:49:34.866Z",
+          "end": "2026-02-24T06:49:35.950Z",
+          "duration": 1084,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the view Recipt button",
+          "start": "2026-02-24T06:49:35.950Z",
+          "end": "2026-02-24T06:49:37.598Z",
+          "duration": 1648,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Download Recipt",
+          "start": "2026-02-24T06:49:37.599Z",
+          "end": "2026-02-24T06:49:39.732Z",
+          "duration": 2133,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Downloaded invoice Open button",
+          "start": "2026-02-24T06:49:39.732Z",
+          "end": "2026-02-24T06:49:44.649Z",
+          "duration": 4917,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Invoice back button",
+          "start": "2026-02-24T06:49:44.649Z",
+          "end": "2026-02-24T06:49:47.857Z",
+          "duration": 3208,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the whats app option",
+          "start": "2026-02-24T06:49:47.857Z",
+          "end": "2026-02-24T06:49:50.650Z",
+          "duration": 2793,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Log-out button",
+          "start": "2026-02-24T06:49:50.650Z",
+          "end": "2026-02-24T06:49:55.085Z",
+          "duration": 4435,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Login",
+      "duration": 58624,
+      "start": "2026-02-24T06:44:04.199Z",
+      "end": "2026-02-24T06:45:02.823Z",
+      "tests": [
+        {
+          "title": "Login Screen",
+          "start": "2026-02-24T06:44:04.200Z",
+          "end": "2026-02-24T06:44:09.204Z",
+          "duration": 5004,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter In-vaild Mobile number",
+          "start": "2026-02-24T06:44:09.205Z",
+          "end": "2026-02-24T06:44:12.611Z",
+          "duration": 3406,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Get otp button",
+          "start": "2026-02-24T06:44:12.612Z",
+          "end": "2026-02-24T06:44:14.848Z",
+          "duration": 2236,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the Error message",
+          "start": "2026-02-24T06:44:14.849Z",
+          "end": "2026-02-24T06:44:16.925Z",
+          "duration": 2076,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Vaild Mobile number",
+          "start": "2026-02-24T06:44:16.926Z",
+          "end": "2026-02-24T06:44:19.151Z",
+          "duration": 2225,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Get otp button",
+          "start": "2026-02-24T06:44:19.152Z",
+          "end": "2026-02-24T06:44:23.275Z",
+          "duration": 4123,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "enter OTP",
+          "start": "2026-02-24T06:44:23.276Z",
+          "end": "2026-02-24T06:44:33.775Z",
+          "duration": 10499,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the Otp Error message",
+          "start": "2026-02-24T06:44:33.776Z",
+          "end": "2026-02-24T06:44:38.832Z",
+          "duration": 5056,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "enter OTP",
+          "start": "2026-02-24T06:44:38.833Z",
+          "end": "2026-02-24T06:44:57.750Z",
+          "duration": 18917,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "verify the user are sucessfully logged in",
+          "start": "2026-02-24T06:44:57.750Z",
+          "end": "2026-02-24T06:45:02.823Z",
+          "duration": 5073,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Map",
+      "duration": 102575,
+      "start": "2026-02-24T06:45:02.823Z",
+      "end": "2026-02-24T06:46:45.398Z",
+      "tests": [
+        {
+          "title": "Map Screen",
+          "start": "2026-02-24T06:45:02.824Z",
+          "end": "2026-02-24T06:45:04.826Z",
+          "duration": 2002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the List view button",
+          "start": "2026-02-24T06:45:04.827Z",
+          "end": "2026-02-24T06:45:06.933Z",
+          "duration": 2106,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Filter Option",
+          "start": "2026-02-24T06:45:06.934Z",
+          "end": "2026-02-24T06:45:09.051Z",
+          "duration": 2117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Scroll and Click the type 7 option",
+          "start": "2026-02-24T06:45:09.051Z",
+          "end": "2026-02-24T06:45:12.177Z",
+          "duration": 3126,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "unknown method",
+            "message": "Method is not implemented",
+            "stack": "unknown method: Method is not implemented\n    at async Context.<anonymous> (/Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/test/specs/B_map.specs.js:21:1)"
+          }
+        },
+        {
+          "title": "Scroll down and Click the apply filter button",
+          "start": "2026-02-24T06:45:12.177Z",
+          "end": "2026-02-24T06:45:18.244Z",
+          "duration": 6067,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select the charger from the Filtered Result",
+          "start": "2026-02-24T06:45:18.245Z",
+          "end": "2026-02-24T06:45:21.387Z",
+          "duration": 3142,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Make the Charger as Favorite",
+          "start": "2026-02-24T06:45:21.387Z",
+          "end": "2026-02-24T06:45:23.516Z",
+          "duration": 2129,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:45:23.517Z",
+          "end": "2026-02-24T06:45:25.669Z",
+          "duration": 2152,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:45:25.669Z",
+          "end": "2026-02-24T06:45:28.318Z",
+          "duration": 2649,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Write Review Button",
+          "start": "2026-02-24T06:45:28.319Z",
+          "end": "2026-02-24T06:45:31.449Z",
+          "duration": 3130,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Cick the 5 star option",
+          "start": "2026-02-24T06:45:31.449Z",
+          "end": "2026-02-24T06:45:32.599Z",
+          "duration": 1150,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Write the review",
+          "start": "2026-02-24T06:45:32.599Z",
+          "end": "2026-02-24T06:45:34.746Z",
+          "duration": 2147,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review Submit button",
+          "start": "2026-02-24T06:45:34.746Z",
+          "end": "2026-02-24T06:45:35.880Z",
+          "duration": 1134,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Update review button",
+          "start": "2026-02-24T06:45:35.881Z",
+          "end": "2026-02-24T06:45:39.033Z",
+          "duration": 3152,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Reduce the review star",
+          "start": "2026-02-24T06:45:39.033Z",
+          "end": "2026-02-24T06:45:40.183Z",
+          "duration": 1150,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Update the Review",
+          "start": "2026-02-24T06:45:40.183Z",
+          "end": "2026-02-24T06:45:44.355Z",
+          "duration": 4172,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the update review button",
+          "start": "2026-02-24T06:45:44.355Z",
+          "end": "2026-02-24T06:45:45.506Z",
+          "duration": 1151,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Delete Review button",
+          "start": "2026-02-24T06:45:45.506Z",
+          "end": "2026-02-24T06:45:48.516Z",
+          "duration": 3010,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the ev card back button",
+          "start": "2026-02-24T06:45:48.517Z",
+          "end": "2026-02-24T06:45:51.281Z",
+          "duration": 2764,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map view button",
+          "start": "2026-02-24T06:45:51.281Z",
+          "end": "2026-02-24T06:45:53.498Z",
+          "duration": 2217,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the favorite option",
+          "start": "2026-02-24T06:45:53.498Z",
+          "end": "2026-02-24T06:45:54.599Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charger in the Favorite screen",
+          "start": "2026-02-24T06:45:54.600Z",
+          "end": "2026-02-24T06:46:00.040Z",
+          "duration": 5440,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:46:00.040Z",
+          "end": "2026-02-24T06:46:02.181Z",
+          "duration": 2141,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Remove the Charger from Favorite",
+          "start": "2026-02-24T06:46:02.182Z",
+          "end": "2026-02-24T06:46:04.762Z",
+          "duration": 2580,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:46:04.763Z",
+          "end": "2026-02-24T06:46:06.883Z",
+          "duration": 2120,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the ev card back button",
+          "start": "2026-02-24T06:46:06.884Z",
+          "end": "2026-02-24T06:46:10.015Z",
+          "duration": 3131,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Notification Button",
+          "start": "2026-02-24T06:46:10.015Z",
+          "end": "2026-02-24T06:46:31.957Z",
+          "duration": 21942,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Whats app option",
+          "start": "2026-02-24T06:46:31.957Z",
+          "end": "2026-02-24T06:46:34.316Z",
+          "duration": 2359,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Active Session option",
+          "start": "2026-02-24T06:46:34.316Z",
+          "end": "2026-02-24T06:46:37.018Z",
+          "duration": 2702,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Ev card present in the Map screen",
+          "start": "2026-02-24T06:46:37.018Z",
+          "end": "2026-02-24T06:46:38.116Z",
+          "duration": 1098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "add the Charger as Favorite",
+          "start": "2026-02-24T06:46:38.116Z",
+          "end": "2026-02-24T06:46:40.894Z",
+          "duration": 2778,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:46:40.895Z",
+          "end": "2026-02-24T06:46:42.015Z",
+          "duration": 1120,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:46:42.016Z",
+          "end": "2026-02-24T06:46:43.149Z",
+          "duration": 1133,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the overview button",
+          "start": "2026-02-24T06:46:43.149Z",
+          "end": "2026-02-24T06:46:45.398Z",
+          "duration": 2249,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Wallet",
+      "duration": 9833,
+      "start": "2026-02-24T06:46:45.398Z",
+      "end": "2026-02-24T06:46:55.231Z",
+      "tests": [
+        {
+          "title": "Wallet",
+          "start": "2026-02-24T06:46:45.398Z",
+          "end": "2026-02-24T06:46:46.400Z",
+          "duration": 1002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Wallet button",
+          "start": "2026-02-24T06:46:46.401Z",
+          "end": "2026-02-24T06:46:47.968Z",
+          "duration": 1567,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Deposite money",
+          "start": "2026-02-24T06:46:47.968Z",
+          "end": "2026-02-24T06:46:53.032Z",
+          "duration": 5064,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Refresh button",
+          "start": "2026-02-24T06:46:53.032Z",
+          "end": "2026-02-24T06:46:54.133Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Transaction button",
+          "start": "2026-02-24T06:46:54.133Z",
+          "end": "2026-02-24T06:46:55.231Z",
+          "duration": 1098,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Profile",
+      "duration": 108286,
+      "start": "2026-02-24T06:46:55.231Z",
+      "end": "2026-02-24T06:48:43.517Z",
+      "tests": [
+        {
+          "title": "Profile",
+          "start": "2026-02-24T06:46:55.231Z",
+          "end": "2026-02-24T06:46:55.232Z",
+          "duration": 1,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Profile button",
+          "start": "2026-02-24T06:46:55.232Z",
+          "end": "2026-02-24T06:46:58.431Z",
+          "duration": 3199,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Re-name the user name",
+          "start": "2026-02-24T06:46:58.432Z",
+          "end": "2026-02-24T06:47:05.210Z",
+          "duration": 6778,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Add Tax Details",
+          "start": "2026-02-24T06:47:05.210Z",
+          "end": "2026-02-24T06:47:20.267Z",
+          "duration": 15057,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charging History",
+          "start": "2026-02-24T06:47:20.267Z",
+          "end": "2026-02-24T06:47:21.382Z",
+          "duration": 1115,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Charger present in the charger history",
+          "start": "2026-02-24T06:47:21.382Z",
+          "end": "2026-02-24T06:47:22.482Z",
+          "duration": 1100,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the View Report button",
+          "start": "2026-02-24T06:47:22.483Z",
+          "end": "2026-02-24T06:47:34.725Z",
+          "duration": 12242,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Charger option",
+          "start": "2026-02-24T06:47:34.726Z",
+          "end": "2026-02-24T06:47:35.881Z",
+          "duration": 1155,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Host a station",
+          "start": "2026-02-24T06:47:35.882Z",
+          "end": "2026-02-24T06:47:40.065Z",
+          "duration": 4183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add charger",
+          "start": "2026-02-24T06:47:40.066Z",
+          "end": "2026-02-24T06:47:41.949Z",
+          "duration": 1883,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the get started button",
+          "start": "2026-02-24T06:47:41.950Z",
+          "end": "2026-02-24T06:47:44.954Z",
+          "duration": 3004,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add charger scanner back button",
+          "start": "2026-02-24T06:47:44.954Z",
+          "end": "2026-02-24T06:47:47.413Z",
+          "duration": 2459,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Host charger screen Back Button",
+          "start": "2026-02-24T06:47:47.414Z",
+          "end": "2026-02-24T06:47:49.597Z",
+          "duration": 2183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Wallet button",
+          "start": "2026-02-24T06:47:49.597Z",
+          "end": "2026-02-24T06:47:50.714Z",
+          "duration": 1117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Deposite money",
+          "start": "2026-02-24T06:47:50.715Z",
+          "end": "2026-02-24T06:47:54.700Z",
+          "duration": 3985,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Refresh button",
+          "start": "2026-02-24T06:47:54.701Z",
+          "end": "2026-02-24T06:47:55.284Z",
+          "duration": 583,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Transaction button",
+          "start": "2026-02-24T06:47:55.286Z",
+          "end": "2026-02-24T06:47:57.988Z",
+          "duration": 2702,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Bookings",
+          "start": "2026-02-24T06:47:57.988Z",
+          "end": "2026-02-24T06:48:00.548Z",
+          "duration": 2560,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites button",
+          "start": "2026-02-24T06:48:00.548Z",
+          "end": "2026-02-24T06:48:01.648Z",
+          "duration": 1100,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorite charger",
+          "start": "2026-02-24T06:48:01.648Z",
+          "end": "2026-02-24T06:48:03.632Z",
+          "duration": 1984,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:48:03.633Z",
+          "end": "2026-02-24T06:48:06.383Z",
+          "duration": 2750,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:48:06.384Z",
+          "end": "2026-02-24T06:48:08.482Z",
+          "duration": 2098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the ev card back button",
+          "start": "2026-02-24T06:48:08.482Z",
+          "end": "2026-02-24T06:48:09.468Z",
+          "duration": 986,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites Back button",
+          "start": "2026-02-24T06:48:09.468Z",
+          "end": "2026-02-24T06:48:11.216Z",
+          "duration": 1748,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the my vehicle",
+          "start": "2026-02-24T06:48:11.217Z",
+          "end": "2026-02-24T06:48:12.381Z",
+          "duration": 1164,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add vehicle button",
+          "start": "2026-02-24T06:48:12.382Z",
+          "end": "2026-02-24T06:48:13.498Z",
+          "duration": 1116,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Brand Drop-down",
+          "start": "2026-02-24T06:48:13.499Z",
+          "end": "2026-02-24T06:48:14.547Z",
+          "duration": 1048,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter the Vehicle brand name",
+          "start": "2026-02-24T06:48:14.547Z",
+          "end": "2026-02-24T06:48:17.116Z",
+          "duration": 2569,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select Vehicle Model",
+          "start": "2026-02-24T06:48:17.118Z",
+          "end": "2026-02-24T06:48:18.565Z",
+          "duration": 1447,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Registration Number",
+          "start": "2026-02-24T06:48:18.565Z",
+          "end": "2026-02-24T06:48:19.733Z",
+          "duration": 1168,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add vehicle submit button",
+          "start": "2026-02-24T06:48:19.733Z",
+          "end": "2026-02-24T06:48:20.616Z",
+          "duration": 883,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Vehicle back button",
+          "start": "2026-02-24T06:48:20.616Z",
+          "end": "2026-02-24T06:48:22.197Z",
+          "duration": 1581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Language button",
+          "start": "2026-02-24T06:48:22.197Z",
+          "end": "2026-02-24T06:48:32.730Z",
+          "duration": 10533,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the language drop-down",
+          "start": "2026-02-24T06:48:32.731Z",
+          "end": "2026-02-24T06:48:33.502Z",
+          "duration": 771,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Done Button",
+          "start": "2026-02-24T06:48:33.503Z",
+          "end": "2026-02-24T06:48:34.167Z",
+          "duration": 664,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Delete Button",
+          "start": "2026-02-24T06:48:34.168Z",
+          "end": "2026-02-24T06:48:42.631Z",
+          "duration": 8463,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map button",
+          "start": "2026-02-24T06:48:42.631Z",
+          "end": "2026-02-24T06:48:43.517Z",
+          "duration": 886,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    },
+    {
+      "title": "Hamburger Menu",
+      "duration": 71567,
+      "start": "2026-02-24T06:48:43.518Z",
+      "end": "2026-02-24T06:49:55.085Z",
+      "tests": [
+        {
+          "title": "Hamburger Menu",
+          "start": "2026-02-24T06:48:43.518Z",
+          "end": "2026-02-24T06:48:44.520Z",
+          "duration": 1002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Map Button",
+          "start": "2026-02-24T06:48:44.521Z",
+          "end": "2026-02-24T06:48:45.630Z",
+          "duration": 1109,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Hamburger Menu button",
+          "start": "2026-02-24T06:48:45.631Z",
+          "end": "2026-02-24T06:48:46.748Z",
+          "duration": 1117,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Iam Host buttton",
+          "start": "2026-02-24T06:48:46.748Z",
+          "end": "2026-02-24T06:48:48.449Z",
+          "duration": 1701,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Host a station",
+          "start": "2026-02-24T06:48:48.449Z",
+          "end": "2026-02-24T06:48:52.583Z",
+          "duration": 4134,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add charger",
+          "start": "2026-02-24T06:48:52.583Z",
+          "end": "2026-02-24T06:48:54.467Z",
+          "duration": 1884,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the get started button",
+          "start": "2026-02-24T06:48:54.468Z",
+          "end": "2026-02-24T06:48:57.434Z",
+          "duration": 2966,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add charger scanner back button",
+          "start": "2026-02-24T06:48:57.435Z",
+          "end": "2026-02-24T06:48:59.566Z",
+          "duration": 2131,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Host charger screen Back Button",
+          "start": "2026-02-24T06:48:59.567Z",
+          "end": "2026-02-24T06:49:01.748Z",
+          "duration": 2181,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites button",
+          "start": "2026-02-24T06:49:01.748Z",
+          "end": "2026-02-24T06:49:02.864Z",
+          "duration": 1116,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorite charger",
+          "start": "2026-02-24T06:49:02.864Z",
+          "end": "2026-02-24T06:49:04.833Z",
+          "duration": 1969,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the Connector button",
+          "start": "2026-02-24T06:49:04.834Z",
+          "end": "2026-02-24T06:49:07.415Z",
+          "duration": 2581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Review button",
+          "start": "2026-02-24T06:49:07.416Z",
+          "end": "2026-02-24T06:49:09.519Z",
+          "duration": 2103,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the ev card back button",
+          "start": "2026-02-24T06:49:09.519Z",
+          "end": "2026-02-24T06:49:10.630Z",
+          "duration": 1111,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Favorites Back button",
+          "start": "2026-02-24T06:49:10.631Z",
+          "end": "2026-02-24T06:49:12.498Z",
+          "duration": 1867,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the my vehicle",
+          "start": "2026-02-24T06:49:12.499Z",
+          "end": "2026-02-24T06:49:13.648Z",
+          "duration": 1149,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the add vehicle button",
+          "start": "2026-02-24T06:49:13.649Z",
+          "end": "2026-02-24T06:49:14.731Z",
+          "duration": 1082,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Brand Drop-down",
+          "start": "2026-02-24T06:49:14.732Z",
+          "end": "2026-02-24T06:49:15.833Z",
+          "duration": 1101,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter the Vehicle brand name",
+          "start": "2026-02-24T06:49:15.834Z",
+          "end": "2026-02-24T06:49:19.514Z",
+          "duration": 3680,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Select Vehicle Model",
+          "start": "2026-02-24T06:49:19.514Z",
+          "end": "2026-02-24T06:49:21.697Z",
+          "duration": 2183,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Enter Registration Number",
+          "start": "2026-02-24T06:49:21.697Z",
+          "end": "2026-02-24T06:49:26.506Z",
+          "duration": 4809,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Add vehicle submit button",
+          "start": "2026-02-24T06:49:26.507Z",
+          "end": "2026-02-24T06:49:27.681Z",
+          "duration": 1174,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Vehicle",
+          "start": "2026-02-24T06:49:27.682Z",
+          "end": "2026-02-24T06:49:29.831Z",
+          "duration": 2149,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Vehicle Delete button",
+          "start": "2026-02-24T06:49:29.831Z",
+          "end": "2026-02-24T06:49:32.501Z",
+          "duration": 2670,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the My Vehicle back button",
+          "start": "2026-02-24T06:49:32.502Z",
+          "end": "2026-02-24T06:49:33.632Z",
+          "duration": 1130,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Charging History",
+          "start": "2026-02-24T06:49:33.632Z",
+          "end": "2026-02-24T06:49:34.866Z",
+          "duration": 1234,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the completed charger session",
+          "start": "2026-02-24T06:49:34.866Z",
+          "end": "2026-02-24T06:49:35.950Z",
+          "duration": 1084,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the view Recipt button",
+          "start": "2026-02-24T06:49:35.950Z",
+          "end": "2026-02-24T06:49:37.598Z",
+          "duration": 1648,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Download Recipt",
+          "start": "2026-02-24T06:49:37.599Z",
+          "end": "2026-02-24T06:49:39.732Z",
+          "duration": 2133,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Downloaded invoice Open button",
+          "start": "2026-02-24T06:49:39.732Z",
+          "end": "2026-02-24T06:49:44.649Z",
+          "duration": 4917,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Clcik the Invoice back button",
+          "start": "2026-02-24T06:49:44.649Z",
+          "end": "2026-02-24T06:49:47.857Z",
+          "duration": 3208,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "click the whats app option",
+          "start": "2026-02-24T06:49:47.857Z",
+          "end": "2026-02-24T06:49:50.650Z",
+          "duration": 2793,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Click the Log-out button",
+          "start": "2026-02-24T06:49:50.650Z",
+          "end": "2026-02-24T06:49:55.085Z",
+          "duration": 4435,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/test/specs/A_login.specs.js",
+    "file:///Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/test/specs/B_map.specs.js",
+    "file:///Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/test/specs/D_wallet.specs.js",
+    "file:///Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/test/specs/E_Profile.specs.js",
+    "file:///Users/abishek/Desktop/App_Automation_Scripts/The_Sustainer/The_Sustainer_Automation_script/test/specs/F_hamburger.specs.js"
+  ],
+  "state": {
+    "passed": 590,
+    "failed": 5,
+    "skipped": 0
+  }
+}
