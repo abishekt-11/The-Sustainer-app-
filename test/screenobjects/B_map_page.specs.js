@@ -31,7 +31,7 @@ get hamburger_menu(){
     return $('//android.view.ViewGroup[@content-desc="home_drawer_btn"]');
 }
 get charger_ev_card(){
-    return $('//android.view.ViewGroup[@content-desc="home_listview_card_2"]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.ImageView');
+    return $('//android.view.ViewGroup[@content-desc="home_listview_card_1"]');
 }
 get Testing_charger(){
     return $("//android.widget.TextView[@text='WM_07']");
@@ -131,7 +131,7 @@ get update_review_button(){
     return $('//android.widget.Button[@content-desc="tariff_edit_review_btn"]');
 }
 get Notification_1(){
-    return $('//android.view.ViewGroup[@content-desc="notification_item_4"]/android.widget.TextView[2]');
+    return $('//android.view.ViewGroup[@content-desc="notification_item_1"]/android.widget.TextView[2]');
 }
 get Notification_view_traiff(){
     return $('//android.view.ViewGroup[@content-desc="View Tariff Card"]/android.widget.TextView');

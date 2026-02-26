@@ -111,10 +111,12 @@ describe('Profile',()=>{
     it('click the Charger present in the charger history',async()=>{
         await driver.pause(1000);
         const receiptXpath = `//android.view.ViewGroup[@content-desc="Charging Receipt, #97303499, 06 June 2023, Charger ID - vgr776, Spent - ₹ 0.00 , Usage - 0.18 Wh"]`;
-        const receiptElement = await $(receiptXpath);
+        const receiptElement = await $(receiptXpath); 
         await receiptElement.click();
-        // await E_profile_pageSpecs.Charger_history_charger.click();
-        
+        //  const receiptXpath = '//android.view.ViewGroup[@content-desc="Charging Receipt, #18473029, 25 February 2026, Charger ID - 2bb4g4, Spent - ₹ 0.00 , Usage - 0.04 Wh"]';
+        // const receiptElement = await $(receiptXpath); 
+        // await receiptElement.click();
+        // await E_profile_pageSpes.Charger_history_charger.click();  
     })
     it('Clcik the View Report button',async()=>{
         await E_profile_pageSpecs.Profile_charger_history_view_recipt.click();

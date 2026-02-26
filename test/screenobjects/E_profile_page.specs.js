@@ -34,7 +34,7 @@ class profile{
         return $('//android.view.ViewGroup[@content-desc="󰅁"]/android.widget.TextView');
     }
     get Profile_charger_history_charger(){
-        return $('//android.view.ViewGroup[@content-desc="Charging Receipt, #97303499, 06 June 2023, Charger ID - vgr776, Spent - ₹ 0.00 , Usage - 0.18 Wh"]');
+        return $("(//android.widget.TextView[@text='Charger ID - 2bb4g4'])[1]");
     }
     get Profile_charger_history_view_recipt(){
         return $('//android.view.ViewGroup[@content-desc="View Receipt"]/android.widget.TextView');
@@ -172,7 +172,7 @@ class profile{
         return $('//android.view.ViewGroup[@content-desc="wallet_add_money"]/android.widget.TextView');
     }
     get Charger_history_charger(){
-        return $("(//android.widget.TextView[@text='Charger ID - saun2d'])[1]");
+        return $("(//android.widget.TextView[@text='Charger ID - 2bb4g4'])[1]");
     }
 
   

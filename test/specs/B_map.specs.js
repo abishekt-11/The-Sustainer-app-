@@ -72,9 +72,18 @@ if (isSelected !== 'true') {
     //reviews
 
     it('Click the Write Review Button',async()=>{
-        await driver.pause(3000);
-        const button = await $('~tariff_review_btn');  // ~ is shorthand for accessibility ID
-await button.click();
+        const reviewBtn1 = await $('~tariff_review_btn');
+const reviewBtn2 = await $('~tariff_write_review_btn');
+
+if (await reviewBtn1.isExisting()) {
+    await reviewBtn1.click();
+    console.log('Clicked tariff_review_btn');
+} else if (await reviewBtn2.isExisting()) {
+    await reviewBtn2.click();
+    console.log('Clicked tariff_write_review_btn');
+} else {
+    throw new Error('Neither review button is present on screen');
+}
 
     })
     it('Cick the 5 star option',async()=>{
@@ -167,7 +176,7 @@ await button.click();
           await driver.pause(1000);
         await B_map_pageSpecs.Notification_view_traiff_back_button.click();
         await driver.pause(1000);
-        const sessionId = "80072073";
+        const sessionId = "18473029";
         // 1️⃣ Check Home Screen
         const homeElement = await driver.$(`//android.widget.TextView[contains(@text, '${sessionId}')]`);
     const isHomePresent = await homeElement.isDisplayed();

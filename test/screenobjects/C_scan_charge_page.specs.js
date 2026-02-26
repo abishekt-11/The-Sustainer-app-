@@ -124,15 +124,7 @@ class scanandcharge{
 
 
 
-    
-
-
-    
-
-    
-
-
-  
+     
 
 }
 module.exports=new  scanandcharge();

@@ -1,4 +1,4 @@
-const TimelineService = require('wdio-timeline-reporter').default;
+
 exports.config = {
     //
     // ====================
@@ -149,12 +149,9 @@ exports.config = {
     outputDir: 'allure-results',
     disableWebdriverStepsReporting: true,
     disableWebdriverScreenshotsReporting: true,
-  }],
-  ['timeline', {
-            outputDir: './reports/timeline',
-            embedImages: true,
-            screenshotStrategy: 'on:error',
-        }]
+  }]
+
+  
   
 ],
 

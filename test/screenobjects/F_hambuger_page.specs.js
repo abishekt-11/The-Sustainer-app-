@@ -76,7 +76,7 @@ class hamburgermenu{
         return $("//android.widget.Button[@text='While using the app']");
     }
     get my_charging_history_charger(){
-        return $("(//android.widget.TextView[@text='Charger ID - saun2d'])[1]");
+        return $("(//android.widget.TextView[@text='Charger ID - 2bb4g4'])[1]");
     }
     get my_charging_history_charger_view_recipt(){
         return $('//android.view.ViewGroup[@content-desc="View Receipt"]/android.widget.TextView');
