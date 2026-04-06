@@ -50,47 +50,7 @@ describe('Hamburger Menu',()=>{
          await E_profile_pageSpecs.profile_my_chargers_back_button.click();
      })
 
-     //My Bookings
-      
-//      it('Click the My Bookings',async()=>{
-//                  await driver.pause(1000);
-//                  await F_hambuger_pageSpecs.Bookings.click();
-//                  await driver.pause(1000);
-//                  await F_hambuger_pageSpecs.bookings_back_button.click();
-//                  await driver.pause(1000);
-//                  await F_hambuger_pageSpecs.Bookings_delete_button_1.click();
-//                  await F_hambuger_pageSpecs.Bookings_delete_no.click();
-//                  await driver.pause(1000);
-//                  await F_hambuger_pageSpecs.Bookings_delete_yes.click();
-//                  await driver.pause(2000);
-//                  async function verifyBookingDeleted() {
-//     const element = await $("//android.widget.TextView[@text='CANCELLED']");
-    
-//     if (await element.isExisting() && await element.isDisplayed()) {
-//         console.log("Booking is deleted successfully");
-//     } else {
-//         console.log("Booking is NOT deleted");
-//     }
-// }
-//              })
-//              it('Delete the My schedule charger',async()=>{
-//                 await driver.pause(1000);
-//                 await F_hambuger_pageSpecs.Bookingd_delete_button_2.click();
-//                 await F_hambuger_pageSpecs.Bookings_delete_no.click();
-//                  await driver.pause(1000);
-//                  await F_hambuger_pageSpecs.Bookings_delete_yes.click();
-//                  await driver.pause(2000);
-//                  async function verifyBookingDeleted() {
-//     const element = await $("//android.widget.TextView[@text='CANCELLED']");
-    
-//     if (await element.isExisting() && await element.isDisplayed()) {
-//         console.log("Booking is deleted successfully");
-//     } else {
-//         console.log("Booking is NOT deleted");
-//     }
-// }
-             
-// })
+     
     //Favorites
 
     it('Click the Favorites button',async()=>{
@@ -189,6 +149,11 @@ await vehicleInput.setValue(vehicleNumber);
                         it('Click the completed charger session',async()=>{
                             const receipt = await $('//android.view.ViewGroup[@content-desc="Charging Receipt, #97303499, 06 June 2023, Charger ID - vgr776, Spent - ₹ 0.00 , Usage - 0.18 Wh"]');
                                     await receipt.click();
+        //                     await driver.pause(5000);
+        //                             const receiptXpath = "(//android.view.ViewGroup[contains(@content-desc,'Charger ID - 2bb4g4')])[1]";
+        // const receiptElement = await $(receiptXpath); 
+        // await receiptElement.click();
+        // await E_profile_pageSpes.Charger_history_charger.click(); 
                             // await F_hambuger_pageSpecs.my_charging_history_charger.click();
                         })
                         it('Click the view Recipt button',async()=>{

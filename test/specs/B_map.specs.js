@@ -224,24 +224,7 @@ if (await reviewBtn1.isExisting()) {
         await driver.pause(1000);
         await B_map_pageSpecs.ev_card_favorite.click();
     })
-    // it('Click the Book button',async()=>{
-    //     await B_map_pageSpecs.ev_card_book_button.click();
-    //     await B_map_pageSpecs.Book_date.click();
-    //     await B_map_pageSpecs.Book_connector.click();
-    //     await B_map_pageSpecs.Book_Button.click();
-    //     await driver.pause(1000);
-    //     await B_map_pageSpecs.Book_confrimation_ok.click();
-    // })
-    // it('Click the Schedule Button',async()=>{
-    //     await driver.pause(1000);
-    //     await B_map_pageSpecs.ev_card_book_button.click();
-    //     await B_map_pageSpecs.Scheduling_button.click();
-    //     await B_map_pageSpecs.Schedule_date_1.click();
-    //     await B_map_pageSpecs.Schedule_connectors.click();
-    //     await B_map_pageSpecs.Book_schedule_button.click();
-    //     await driver.pause(1000);
-    //     await B_map_pageSpecs.Schedule_confrimation_ok.click();
-    // })
+   
     it('click the Connector button',async()=>{
         await driver.pause(1000);
         await B_map_pageSpecs.ev_cards_connectore.click();
@@ -257,36 +240,6 @@ if (await reviewBtn1.isExisting()) {
         await B_map_pageSpecs.ev_card_back_button.click();
     })
 
-    //ev card contents verification
-//    it('Verify EV card details match (view only)', async () => {
-//     await driver.pause(2000);
-//     // Get Outside Values
-// const element = await $('//android.view.ViewGroup[@content-desc="home_mapview_card_1"]/android.widget.TextView[3]');
-// const element2 = await $('//android.view.ViewGroup[@content-desc="home_mapview_card_1"]/android.widget.TextView[4]');
-// const actualText = await element.getText();
-// const actualText2 = await element2.getText();
-//     // const outsideName = await $("//android.widget.TextView[@text='WM_07']").getText();
-//     // const outsideKm = await $("//android.widget.TextView[@text='5.48 km']").getText();
-//      await driver.pause(1000);
-//         await B_map_pageSpecs.map_screen_ev_card.click();
-//         await driver.pause(1000);
-//         expect(actualText.trim()).toBe('3.3KW AC');
-//         expect(actualText2.trim()).toBe('223.57 km');
-
-//     // Get Inside Values
-//     // const insideName = await $("(//android.widget.TextView[@text='WM_07'])[1]").getText();
-//     // const insideKmFull = await $("//android.widget.TextView[@text='5.48 km • 4.5']").getText();
-
-//     // Remove extra " • 0" from inside KM
-//     // const insideKm = insideKmFull.split(" • ")[0];
-
-//     // Compare
-//     const isMatching =
-//         outsideName === insideName &&
-//         outsideKm === insideKm;
-//     console.log(isMatching);  // true or false
-//      await B_map_pageSpecs.ev_card_back_button.click();
-// });
 
 
 

@@ -131,7 +131,7 @@ get update_review_button(){
     return $('//android.widget.Button[@content-desc="tariff_edit_review_btn"]');
 }
 get Notification_1(){
-    return $('//android.view.ViewGroup[@content-desc="notification_item_1"]/android.widget.TextView[2]');
+    return $('//android.view.ViewGroup[@content-desc="notification_item_5"]/android.widget.TextView[2]');
 }
 get Notification_view_traiff(){
     return $('//android.view.ViewGroup[@content-desc="View Tariff Card"]/android.widget.TextView');

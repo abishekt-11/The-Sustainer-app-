@@ -39,48 +39,8 @@ describe('Profile',()=>{
     const isUpdated = (beforeUpdate === oldName) && (afterUpdate === newName);
 
     console.log(isUpdated); 
-        // //await driver.pause(1000);
-        // await E_profile_pageSpecs.personal_details.click();
-        // //await driver.pause(1000);
-        // await E_profile_pageSpecs.user_name_text_box.clearValue();
-        // //await driver.pause(1000);
-        // await E_profile_pageSpecs.user_name_text_box.setValue("Updated User name");
-        // await E_profile_pageSpecs.Personal_details_save.click();
-        // await driver.pause(1000);
-        // await E_profile_pageSpecs.personal_details.click();
+     
     })
-//     it('Verify the User name is updated sucessfully',async()=>{
-//         it('Verify the User name is updated successfully', async () => {
-
-//     const oldname = "Testing";
-//     const newName = "Updated User name";
-
-//     const nameField = await $("//android.widget.EditText[@content-desc='personal_details_name']");
-//     await E_profile_pageSpecs.personal_details.click();
-//     // Get old value
-//     const currentName = await nameField.getText();
-
-//     if (currentName === oldname) {
-
-//         await nameField.clearValue();
-//         await nameField.setValue(newName);
-
-//         // click save button (replace with your locator)
-//         const saveBtn = await $("id=save_button_id");
-//         await saveBtn.click();
-
-//         await driver.pause(2000);
-
-//         const updatedName = await nameField.getText();
-
-//         if (updatedName === newName) {
-//             console.log("✅ User name updated successfully");
-//         } else {
-//             console.log("❌ User name update failed");
-//         }
-//     }
-// });
-
 
     // })
     it('Add Tax Details',async()=>{
@@ -109,11 +69,11 @@ describe('Profile',()=>{
         
     })
     it('click the Charger present in the charger history',async()=>{
-        await driver.pause(1000);
+        await driver.pause(5000);
         const receiptXpath = `//android.view.ViewGroup[@content-desc="Charging Receipt, #97303499, 06 June 2023, Charger ID - vgr776, Spent - ₹ 0.00 , Usage - 0.18 Wh"]`;
         const receiptElement = await $(receiptXpath); 
         await receiptElement.click();
-        //  const receiptXpath = '//android.view.ViewGroup[@content-desc="Charging Receipt, #18473029, 25 February 2026, Charger ID - 2bb4g4, Spent - ₹ 0.00 , Usage - 0.04 Wh"]';
+        //  const receiptXpath = "(//android.view.ViewGroup[contains(@content-desc,'Charger ID - 2bb4g4')])[1]";
         // const receiptElement = await $(receiptXpath); 
         // await receiptElement.click();
         // await E_profile_pageSpes.Charger_history_charger.click();  
@@ -253,7 +213,7 @@ describe('Profile',()=>{
                 await E_profile_pageSpecs.Add_vehicle_Reg_no.setValue("TN05AB0011");
             })
             it('Click the Add vehicle submit button',async()=>{
-                //await driver.pause(1000);
+                await driver.pause(1000);
                 await E_profile_pageSpecs.Add_vehicle_submit_button.click();
             })
             it('Click the My Vehicle back button',async()=>{
